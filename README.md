@@ -30,4 +30,65 @@ Sendo assim, acesse o repositório do projeto, no caso, o repositório base que 
 
 ![image-1]
 
+Com isso, clique no botão `Fork`, no topo da tela, e então vá ao repositório cópia que será criado no seu perfil do GitHub.
+
+![image-2]
+
+### Preparar ambiente
+
+Após isso, basta então clicar no botão de `Code` e então escolher a melhor forma para baixar o código do projeto.
+
+![image-3]
+
+## Desenvolvimento
+
+Antes de tudo, sempre garanta com que o código de seu `fork` esteja em dia. Sempre quando houver alguma mudança no repositório base, o GitHub mostrará uma sessão acima da parte do código avisando sobre tal situação.
+
+Com isso, basta então realizar o passo a passo esclarecido ao clicar no botão de sincronização, proporcionado pela interface e atualizar seu repositório cópia com o código mais recente.
+
+### Mudanças no Arquivo
+
+O ciclo se baseia em baixar a última versão que está presente na branch `main`. Com essa versão, você realiza as modificações no arquivo `.json` relacionado ao conteúdo salvo do *game*.
+
+### Envio das Mudanças
+
+Após realizar as mudanças nesse arquivo, então crie uma nova `branch` para realizar o envio do arquivo.
+
+![image-4]
+
+Clique no *link* e então uma tela que listará as `branchs` do projeto. Após isso, crie uma nova `branch` e então após salvar os dados, a tela voltará para a tela base do repositório, mas com a nova `branch`já selecionada, mostrando o código que foi colocada naquela nova `branch`.
+
+![image-5]
+
+E então, após isso, envie o arquivo com a mudança que foi feita, para que ele conste na nova `branch`que foi criada.
+
+![image-6]
+
+Após isso, arraste o arquivo modificado para a área de envio de arquivo; insira uma descrição do que foi feito no commit; envie as mudanças para a `branch` que foi criada.
+
+![image-7]
+
+E por último, realize o `pull request`, clicando no botão para abrir `pull  request` que aparecerá na seção acima da parte do código, quando o GitHub detectar que isso é possível.
+
+**Alternativa**
+
+Há também a possibilidade mais prática de simplesmente clicar em enviar o arquivo sem ter criado `branch`alguma, clicar em enviar o arquivo, arrastar os arquivos necessários para a área de envio, e na hora de enviar o commit, selecionar segunda opção.
+
+![image-8]
+
+Com essa segunda opção, as etapas serão puladas e após o envio do arquivo já será oferecida a interface de abertura de `pull request`.
+
+### E está feito 🎉
+
+E então, ao abrir o `pull request`, seu trabalho está feito, pois basta esperar para que o código seja aprovado pelo moderador e seu código seja colocado na `branch main`do repositório base também.
+
+Após ocorrer essa inclusão ou qualquer outra, a mensagem para sincronizar seu código do repositório cópia será mostrada, para cê sempre deixar o código do seu `fork` em dia.
+
 [image-1]: ./.github/1.jpg
+[image-2]: ./.github/2.jpg
+[image-3]: ./.github/3.jpg
+[image-4]: ./.github/4.jpg
+[image-5]: ./.github/5.jpg
+[image-6]: ./.github/6.jpg
+[image-7]: ./.github/7.jpg
+[image-8]: ./.github/8.jpg
