@@ -64,7 +64,7 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/Tileset Piece 7.png",
+        "file": "assets/Tileset Piece 73.png",
         "kind": "image",
         "metadata": "",
         "name": "Tileset Piece 7.png",
@@ -77,7 +77,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Cucumber_Run_8.png",
+        "file": "assets/Cucumber_Run_83.png",
         "kind": "image",
         "metadata": "",
         "name": "2c6fdb1c57b6c07e49858e4ac0dce2f85a5c23a1d392a3c2f41b6e220fd6375b_Cucumber_Run_8.png",
@@ -90,7 +90,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player.png",
+        "file": "assets/player3.png",
         "kind": "image",
         "metadata": "",
         "name": "player.png",
@@ -103,7 +103,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Yellow Background.png",
+        "file": "assets/tiled_Yellow Background3.png",
         "kind": "image",
         "metadata": "",
         "name": "tiled_Yellow Background.png",
@@ -116,7 +116,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/big-platform.png",
+        "file": "assets/big-platform3.png",
         "kind": "image",
         "metadata": "",
         "name": "big-platform.png",
@@ -129,7 +129,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/ground.png",
+        "file": "assets/ground3.png",
         "kind": "image",
         "metadata": "",
         "name": "ground.png",
@@ -142,7 +142,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/medium-platform.png",
+        "file": "assets/medium-platform3.png",
         "kind": "image",
         "metadata": "",
         "name": "medium-platform.png",
@@ -155,7 +155,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/small-platform.png",
+        "file": "assets/small-platform3.png",
         "kind": "image",
         "metadata": "",
         "name": "small-platform.png",
@@ -168,7 +168,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/character.png",
+        "file": "assets/character3.png",
         "kind": "image",
         "metadata": "",
         "name": "character.png",
@@ -180,7 +180,7 @@
         }
       },
       {
-        "file": "assets/jump.wav",
+        "file": "assets/jump3.wav",
         "kind": "audio",
         "metadata": "",
         "name": "jump.wav",
@@ -194,7 +194,7 @@
         }
       },
       {
-        "file": "assets/death.wav",
+        "file": "assets/death3.wav",
         "kind": "audio",
         "metadata": "",
         "name": "death.wav",
@@ -209,7 +209,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/background-dark-beach.jpg",
+        "file": "assets/background-dark-beach3.jpg",
         "kind": "image",
         "metadata": "",
         "name": "background-dark-beach.jpg",
@@ -222,7 +222,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/cloud.png",
+        "file": "assets/cloud3.png",
         "kind": "image",
         "metadata": "",
         "name": "cloud.png",
@@ -235,7 +235,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/moon.png",
+        "file": "assets/moon3.png",
         "kind": "image",
         "metadata": "",
         "name": "moon.png",
@@ -248,7 +248,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/creepy-moon.png",
+        "file": "assets/creepy-moon3.png",
         "kind": "image",
         "metadata": "",
         "name": "creepy-moon.png",
@@ -261,7 +261,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/background-dark-beach-small.jpg",
+        "file": "assets/background-dark-beach-small3.jpg",
         "kind": "image",
         "metadata": "",
         "name": "background-dark-beach-small.jpg",
@@ -274,7 +274,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/creepy-moon-small.png",
+        "file": "assets/creepy-moon-small3.png",
         "kind": "image",
         "metadata": "",
         "name": "creepy-moon-small.png",
@@ -287,7 +287,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/cloud-small.png",
+        "file": "assets/cloud-small3.png",
         "kind": "image",
         "metadata": "",
         "name": "cloud-small.png",
@@ -300,7 +300,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/wendigo-small.png",
+        "file": "assets/wendigo-small3.png",
         "kind": "image",
         "metadata": "",
         "name": "wendigo-small.png",
@@ -313,7 +313,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/wendigo-super-small.png",
+        "file": "assets/wendigo-super-small3.png",
         "kind": "image",
         "metadata": "",
         "name": "wendigo-super-small.png",
@@ -326,7 +326,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Big square stone_Perfect.png",
+        "file": "assets/Big square stone_Perfect3.png",
         "kind": "image",
         "metadata": "",
         "name": "a14f66357828ce63b270c7c25cd82083c983b7e7458a3ef2a10b4e80d767fa70_Big square stone_Perfect.png",
@@ -339,7 +339,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/ladder-tall.png",
+        "file": "assets/ladder-tall3.png",
         "kind": "image",
         "metadata": "",
         "name": "ladder-tall.png",
@@ -352,7 +352,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Long side rectangle stone_Broken.png",
+        "file": "assets/Long side rectangle stone_Broken3.png",
         "kind": "image",
         "metadata": "",
         "name": "3815571b5466f2a61c1c66d5462978051f96ca8bc9289bc79d79da2afbd2d0d7_Long side rectangle stone_Broken.png",
@@ -365,7 +365,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/death-criature.png",
+        "file": "assets/death-criature3.png",
         "kind": "image",
         "metadata": "",
         "name": "death-criature.png",
@@ -378,7 +378,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/no-creepy-moon.png",
+        "file": "assets/no-creepy-moon3.png",
         "kind": "image",
         "metadata": "",
         "name": "no-creepy-moon.png",
@@ -390,7 +390,7 @@
         }
       },
       {
-        "file": "assets/checkpoint.wav",
+        "file": "assets/checkpoint3.wav",
         "kind": "audio",
         "metadata": "",
         "name": "checkpoint.wav",
@@ -405,7 +405,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/creepy-moon_old.png",
+        "file": "assets/creepy-moon_old3.png",
         "kind": "image",
         "metadata": "",
         "name": "creepy-moon_old.png",
@@ -2265,6 +2265,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2819,6 +2820,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Death Criature",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3122,6 +3124,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Checkpoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
