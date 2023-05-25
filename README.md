@@ -15,6 +15,26 @@ Ao escolher o nome, queríamos algo fácil de lembrar, mas que ao mesmo tempo fi
 
 > Nightmair
 
+# Getting Started
+
+O formato do arquivo de exportação do jogo é `JSON`. Então, o arquivo `game.json` na raiz do projeto contém o que há no jogo até então.
+
+E na pasta `assets` está o conteúdo exportado bruto na hora de exportar o arquivo `JSON`. Ou seja, na raiz de `assets` está os arquivos que o próprio GDevelop exportou no momento do "Salvar como...". Já, na pasta `images` e `sounds` estão os arquivos colocados manualmente, para ficar separadinho e organizado.
+
+> Quando for adicionar algum arquivo de imagem ou de som, coloque nessas duas pastas explicitadas acima.
+
+## Executando o projeto
+
+Entre na aplicação do [GDevelop](https://gdevelop.io/download) e clique no item **Abrir...**.
+
+![image-open]
+
+E, após importar todo o conteúdo do arquivo e realizar as modificações que deseja, clique em **Salvar como...** e então salve o arquivo.
+
+A extensão do arquivo é `.json`, então garanta com que o arquivo exportado esteja nesse formato para salvar corretamente.
+
+![image-save]
+
 # Como contribuir
 
 O processo de contribuição é feito por meio do salvamento local do arquivo do GDevelop, colocando logo em seguida no GitHub em uma nova *branch* para que possa ser analisado.
@@ -92,3 +112,5 @@ Após ocorrer essa inclusão ou qualquer outra, a mensagem para sincronizar seu 
 [image-6]: ./.github/6.jpg
 [image-7]: ./.github/7.jpg
 [image-8]: ./.github/8.jpg
+[image-save]: ./.github/save.png
+[image-open]: ./.github/open.png
