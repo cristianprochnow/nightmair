@@ -1,5 +1,5 @@
 {
-  "firstLayout": "Level #1",
+  "firstLayout": "Menu",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -670,6 +670,41 @@
           "identifier": "https://project-resources.gdevelop.io/a123328d-f509-4efb-b73e-5f731a1d6b4f/resources/cdf63bae4e5f10444346924b3054dba7eb5034df6734fdac0a5cb34e83eff952-power-up.mp3",
           "name": "cloud-project-resource"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_black space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Blue background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2820f54b90f3e1ffc044e2347c9ce98f4e35f7ca9bf70c73604314b2ff8ffc27_tiled_Blue background.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/2820f54b90f3e1ffc044e2347c9ce98f4e35f7ca9bf70c73604314b2ff8ffc27_tiled_Blue background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -735,7 +770,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311552,
+        "zoomFactor": 0.4335774304702424,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5707,10 +5742,2268 @@
           "type": "SmoothCamera::SmoothCamera"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Menu",
+      "name": "Menu",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5410025207925101,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1199,
+          "layer": "Background",
+          "name": "Background",
+          "persistentUuid": "edf5d4f9-01e7-4c08-b2b4-5d727928fb7e",
+          "width": 1722,
+          "x": -276,
+          "y": -259,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "UI",
+          "name": "PlayButton",
+          "persistentUuid": "b0fec864-e03a-43b5-8a06-0a0f9efa0ae2",
+          "width": 320,
+          "x": 302,
+          "y": 303,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "UI",
+          "name": "CreditsButton",
+          "persistentUuid": "7f9060de-2062-403c-9415-cd10abfedf45",
+          "width": 320,
+          "x": 302,
+          "y": 405,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 139,
+          "layer": "UI",
+          "name": "Title",
+          "persistentUuid": "28f94314-7187-44d8-b3d3-6205451c5e28",
+          "width": 535,
+          "x": 209,
+          "y": 60,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Background",
+          "persistentUuid": "338a2e17-ca77-46ac-9119-62024b8add70",
+          "width": 0,
+          "x": -11,
+          "y": -32,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1159,
+          "layer": "Credits",
+          "name": "CreditsBackground",
+          "persistentUuid": "77d42dfc-eeb2-4ecb-b565-c319779e6bb2",
+          "width": 1684,
+          "x": -253,
+          "y": -241,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 440,
+          "layer": "Credits",
+          "name": "Creditos",
+          "persistentUuid": "b73836a0-dd31-4731-8ea9-5a1207d96f24",
+          "width": 925,
+          "x": 18,
+          "y": 42,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 101,
+          "layer": "Credits",
+          "name": "CloseButton",
+          "persistentUuid": "5935c3e4-95c6-46f8-aa7e-829af7c201b2",
+          "width": 82,
+          "x": 29,
+          "y": 19,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Credits",
+          "name": "Credits",
+          "persistentUuid": "3166f3be-5f0c-42d5-834c-38d15752b16a",
+          "width": 0,
+          "x": 131,
+          "y": 44,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Background",
+          "tags": "",
+          "texture": "82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 10,
+              "RadiusY": 10,
+              "LoopDuration": 4,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": false,
+              "RotationOffset": 0,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 0,
+              "OldY": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+          "name": "PlayButton",
+          "tags": "",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 6,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "JOGAR",
+              "font": "Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 45,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+          "name": "CreditsButton",
+          "tags": "",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 6,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "CRÉDITOS",
+              "font": "Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 45,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Title",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "NightmAir",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 180,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "CreditsBackground",
+          "tags": "",
+          "texture": "New image2",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+          "name": "CloseButton",
+          "tags": "",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 6,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 6,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "X",
+              "font": "Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 64,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Credits",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Cristian Prochnow\n\nGustavo Henrique Dias\n\nLucas Willian de Souza Serpa\n\nMarlon de Souza\n\nRyan Gabriel Mazzei Bromati",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "CreditsBackground",
+                "=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Credits\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "PlayButton",
+                "=",
+                "(CameraWidth() / 2) - (PlayButton.Width() / 2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "CreditsButton",
+                "=",
+                "(CameraWidth() / 2) - (CreditsButton.Width() / 2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Title",
+                "=",
+                "(CameraWidth() / 2) - (Title.Width() / 2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Credits",
+                "=",
+                "(CameraWidth() / 2) - (Credits.Width() / 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Play Button",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    "ShakeObject_PositionAngle",
+                    "0.5",
+                    "3",
+                    "5",
+                    "5",
+                    "0.1",
+                    "yes",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShakeObject::ShakeObject_PositionAngle::StopShaking"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    "ShakeObject_PositionAngle",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level #1\"",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Credits Button",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "CreditsButton",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Credits\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Close Button",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "CloseButton",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Credits\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 10960928,
+          "ambientLightColorG": 6069792,
+          "ambientLightColorR": 8807856,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 13563592,
+          "ambientLightColorG": 13563592,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 11131392,
+          "ambientLightColorG": 6069792,
+          "ambientLightColorR": 10447320,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "UI",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 12201728,
+          "ambientLightColorG": 6069792,
+          "ambientLightColorR": 8704376,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Credits",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ]
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Ellipse movement",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNpbmUtd2F2ZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNi41LDIxQzEzLjUsMjEgMTIuMzEsMTYuNzYgMTEuMDUsMTIuMjhDMTAuMTQsOS4wNCA5LDUgNy41LDVDNC4xMSw1IDQsMTEuOTMgNCwxMkgyQzIsMTEuNjMgMi4wNiwzIDcuNSwzQzEwLjUsMyAxMS43MSw3LjI1IDEyLjk3LDExLjc0QzEzLjgzLDE0LjggMTUsMTkgMTYuNSwxOUMxOS45NCwxOSAyMC4wMywxMi4wNyAyMC4wMywxMkgyMi4wM0MyMi4wMywxMi4zNyAyMS45NywyMSAxNi41LDIxWiIgLz48L3N2Zz4=",
+      "name": "EllipseMovement",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sine-wave.svg",
+      "shortDescription": "Move objects on ellipses or smoothly back and forth in one direction.",
+      "version": "1.0.2",
+      "description": [
+        "It allows objects to move:",
+        "- on an ellipsis or arcs",
+        "- smoothly vertically or horizontally (by setting one radius to 0)",
+        "- on a sine wave (by adding a force)",
+        "",
+        "It can be used for:",
+        "- Making objects float, such as powerups or coins",
+        "- Moving platforms",
+        "- Enemy movement patterns",
+        "- Making a player constantly turn right or left ([open the project online](https://editor.gdevelop.io/?project=example://star-seeker))"
+      ],
+      "origin": {
+        "identifier": "EllipseMovement",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "sine",
+        "ellipse",
+        "movement",
+        "circular",
+        "circle",
+        "floating",
+        "platform",
+        "enemy"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Move objects on ellipses or smoothly back and forth in one direction.",
+          "fullName": "Ellipse movement",
+          "name": "EllipseMovement",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyOldX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyOldY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Evaluate the center of movement from the object position and properties.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyInitialTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "*",
+                        "-1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyMovementAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::PropertyInitialDirectionAngle() + 90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ">=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyMovementAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Behavior::PropertyInitialDirectionAngle() - 90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.X() - Object.Behavior::DeltaX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Y() - Object.Behavior::DeltaY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Update the center when the object is moved outside of the behavior.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "Object.X() - Object.Behavior::PropertyOldX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "Object.Y() - Object.Behavior::PropertyOldY()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Place the object according to the movement angle.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyRadiusX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::PropertyCenterX() + Object.Behavior::DeltaX()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyRadiusY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::PropertyCenterY() + Object.Behavior::DeltaY()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyShouldRotate"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::DirectionAngle() + Object.Behavior::PropertyRotationOffset()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Save the position to detect when the object is moved outside of the behavior.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyOldX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyOldY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Update the movement angle for the next frame.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyMovementAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "360 * TimeDelta() / Object.Behavior::PropertyLoopDuration()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the turning direction (left or right).",
+              "fullName": "Turn the other way",
+              "functionType": "Action",
+              "name": "ToggleTurningLeft",
+              "sentence": "_PARAM0_ turn the other way",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "2 * Object.X() - Object.Behavior::CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyCenterY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "2 * Object.Y() - Object.Behavior::CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyMovementAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "180"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "*",
+                        "-1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the in which side the object is turning (left or right).",
+              "fullName": "Turn left or right",
+              "functionType": "Action",
+              "name": "SetTurningLeft",
+              "sentence": "_PARAM0_ turn left: _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "yes",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"TurnLeft\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "GetArgumentAsBoolean"
+                              },
+                              "parameters": [
+                                "\"TurnLeft\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::ToggleTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Turn left",
+                  "name": "TurnLeft",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the object is turning left.",
+              "fullName": "Is turning left",
+              "functionType": "Condition",
+              "name": "IsTurningLeft",
+              "sentence": "_PARAM0_ is turning left",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the movement angle of the object.",
+              "fullName": "Movement angle",
+              "functionType": "Expression",
+              "name": "MovementAngle",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMovementAngle()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the loop duration (in seconds).",
+              "fullName": "Loop duration",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "LoopDuration",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "abs(Object.Behavior::PropertyLoopDuration())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the ellipse radius on X axis.",
+              "fullName": "Radius X",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "RadiusX",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyRadiusX()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the ellipse radius on X axis.",
+              "fullName": "Radius Y",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "RadiusY",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyRadiusY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the movement center position on X axis.",
+              "fullName": "Movement center X",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "CenterX",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyCenterX()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the movement center position on Y axis.",
+              "fullName": "Movement center Y",
+              "functionType": "Expression",
+              "group": "Configuration",
+              "name": "CenterY",
+              "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyCenterY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the radius on X axis of the movement.",
+              "fullName": "Radius X",
+              "functionType": "Action",
+              "group": "Elliptical movement configuration",
+              "name": "SetRadiusX",
+              "sentence": "Change the radius on X axis of the movement of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyRadiusX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Radius X",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the radius on Y axis of the movement.",
+              "fullName": "Radius Y",
+              "functionType": "Action",
+              "group": "Elliptical movement configuration",
+              "name": "SetRadiusY",
+              "sentence": "Change the radius on Y axis of the movement of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyRadiusY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Radius Y",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the loop duration.",
+              "fullName": "Loop duration",
+              "functionType": "Action",
+              "group": "Elliptical movement configuration",
+              "name": "SetLoopDuration",
+              "sentence": "Change the loop duration of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "-GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "EllipseMovement::EllipseMovement::IsTurningLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Speed (in degrees per second)",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the movement angle. The object is teleported according to the angle.",
+              "fullName": "Teleport at an angle",
+              "functionType": "Action",
+              "name": "SetMovementAngle",
+              "sentence": "Teleport _PARAM0_ on the ellipse at _PARAM2_°",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::SetPropertyMovementAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Movement angle",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Delta X",
+              "functionType": "Expression",
+              "name": "DeltaX",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "cos(ToRad(Object.Behavior::PropertyMovementAngle())) * Object.Behavior::PropertyRadiusX()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Delta Y",
+              "functionType": "Expression",
+              "name": "DeltaY",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "sin(ToRad(Object.Behavior::PropertyMovementAngle())) * Object.Behavior::PropertyRadiusY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Direction angle",
+              "functionType": "Expression",
+              "name": "DirectionAngle",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMovementAngle() + 90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EllipseMovement::EllipseMovement::PropertyLoopDuration"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ">=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMovementAngle() - 90"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "EllipseMovement::EllipseMovement",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "100",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Radius of the movement on X axis",
+              "description": "",
+              "group": "Ellipse",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "RadiusX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Radius of the movement on Y axis",
+              "description": "",
+              "group": "Ellipse",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "RadiusY"
+            },
+            {
+              "value": "6",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Loop duration",
+              "description": "",
+              "group": "Speed",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "LoopDuration"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Turn left",
+              "description": "",
+              "group": "Speed",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "InitialTurningLeft"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Initial direction",
+              "description": "",
+              "group": "Speed",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "InitialDirectionAngle"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Rotate",
+              "description": "",
+              "group": "Rotation",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "ShouldRotate"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Rotation offset",
+              "description": "",
+              "group": "Rotation",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "RotationOffset"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CenterX"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CenterY"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "MovementAngle"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "OldX"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "OldY"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "User interface",
