@@ -2,6 +2,7 @@
 
 NightmAir é um jogo com jogabilidade 2D, todo construído com base na técnica de Pixel Art, simulando um dos jogos clássicos.
 
+🔗 [Demo][demo-url]
 🔗 [Website][website-url]
 
 # Sobre
@@ -117,3 +118,4 @@ Após ocorrer essa inclusão ou qualquer outra, a mensagem para sincronizar seu 
 [image-save]: ./.github/save.png
 [image-open]: ./.github/open.png
 [website-url]: https://nightmair-page.vercel.app/
+[demo-url]: https://gd.games/instant-builds/85dba896-ffa5-4417-ad5b-eae2b0b1b7b1
