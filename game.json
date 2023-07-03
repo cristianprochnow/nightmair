@@ -8,8 +8,6 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
-    "antialiasingMode": "MSAA",
-    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
@@ -1331,7 +1329,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 80,
           "layer": "",
           "name": "MainPlayer",
@@ -1347,7 +1344,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 1133,
           "layer": "Background",
           "name": "BackgroundDarkSunset",
@@ -1528,7 +1524,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 87,
           "layer": "GameOver",
           "name": "EndGameText",
@@ -1559,7 +1554,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 337,
           "layer": "",
           "name": "CloudGround",
@@ -1575,7 +1569,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 63,
           "layer": "",
           "name": "ChaoContinuoPedra",
@@ -4968,7 +4961,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco"
+              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5279,7 +5273,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Quando tocar na borda limitadora de baixo, morre também"
+              "comment": "Quando tocar na borda limitadora de baixo, morre também",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5401,7 +5396,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar"
+              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5489,7 +5485,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Se o jogador cair em cima da criatura"
+                      "comment": "Se o jogador cair em cima da criatura",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -5538,7 +5535,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Adicionar a pontuação de matar o monstro"
+                          "comment": "Adicionar a pontuação de matar o monstro",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -5566,7 +5564,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Pular no monstro e quicar nele"
+                          "comment": "Pular no monstro e quicar nele",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -5614,7 +5613,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão"
+                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -5728,7 +5728,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela"
+              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5850,7 +5851,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Redefinir a cor de todos os outros checkpoints"
+                  "comment": "Redefinir a cor de todos os outros checkpoints",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5897,7 +5899,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Customizar apenas o checkpoint que o jogador está tocando"
+                  "comment": "Customizar apenas o checkpoint que o jogador está tocando",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -6213,14 +6216,9 @@
           "ambientLightColorB": 8212232,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Background",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -6229,14 +6227,9 @@
           "ambientLightColorB": 167797870,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Foreground",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -6245,14 +6238,9 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 12365048,
           "ambientLightColorR": 16,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "",
-          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -6272,14 +6260,9 @@
           "ambientLightColorB": 164,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11566392,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "UI",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -6288,14 +6271,9 @@
           "ambientLightColorB": 9270840,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11037944,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "GameOver",
-          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -6396,7 +6374,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 80,
           "layer": "",
           "name": "MainPlayer",
@@ -6412,7 +6389,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 1133,
           "layer": "Background",
           "name": "BackgroundDarkSunset",
@@ -6593,7 +6569,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 87,
           "layer": "GameOver",
           "name": "EndGameText",
@@ -6624,7 +6599,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 337,
           "layer": "",
           "name": "CloudGround",
@@ -6640,7 +6614,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 63,
           "layer": "",
           "name": "ChaoContinuoPedra",
@@ -9654,10 +9627,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -9968,7 +9941,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco"
+              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10279,7 +10253,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Quando tocar na borda limitadora de baixo, morre também"
+              "comment": "Quando tocar na borda limitadora de baixo, morre também",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10402,7 +10377,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar"
+              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10490,7 +10466,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Se o jogador cair em cima da criatura"
+                      "comment": "Se o jogador cair em cima da criatura",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -10539,7 +10516,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Adicionar a pontuação de matar o monstro"
+                          "comment": "Adicionar a pontuação de matar o monstro",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -10567,7 +10545,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Pular no monstro e quicar nele"
+                          "comment": "Pular no monstro e quicar nele",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -10615,7 +10594,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão"
+                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -10729,7 +10709,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela"
+              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10851,7 +10832,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Redefinir a cor de todos os outros checkpoints"
+                  "comment": "Redefinir a cor de todos os outros checkpoints",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -10898,7 +10880,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Customizar apenas o checkpoint que o jogador está tocando"
+                  "comment": "Customizar apenas o checkpoint que o jogador está tocando",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -11214,14 +11197,9 @@
           "ambientLightColorB": 8212232,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Background",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -11230,14 +11208,9 @@
           "ambientLightColorB": 167797870,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Foreground",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -11246,14 +11219,9 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 12365048,
           "ambientLightColorR": 16,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "",
-          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -11273,14 +11241,9 @@
           "ambientLightColorB": 164,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11566392,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "UI",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -11289,14 +11252,9 @@
           "ambientLightColorB": 9270840,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11037944,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "GameOver",
-          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -11397,7 +11355,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 80,
           "layer": "",
           "name": "MainPlayer",
@@ -11413,7 +11370,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 1133,
           "layer": "Background",
           "name": "BackgroundDarkSunset",
@@ -11594,7 +11550,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 87,
           "layer": "GameOver",
           "name": "EndGameText",
@@ -12255,7 +12210,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "Spikes",
@@ -12271,7 +12225,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12287,7 +12240,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesSlower",
@@ -12303,7 +12255,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 25,
           "layer": "",
           "name": "MoonCheckpoint",
@@ -12334,7 +12285,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12350,7 +12300,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesSlower",
@@ -12366,7 +12315,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesSlower",
@@ -12382,7 +12330,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesSlower",
@@ -12398,7 +12345,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesSlower",
@@ -12414,7 +12360,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12430,7 +12375,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesSlower",
@@ -12446,7 +12390,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 25,
           "layer": "",
           "name": "MoonCheckpoint",
@@ -12462,7 +12405,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12478,7 +12420,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12494,7 +12435,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "Spikes",
@@ -12510,7 +12450,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 25,
           "layer": "",
           "name": "MoonCheckpoint",
@@ -12526,7 +12465,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12542,7 +12480,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFasterReverse",
@@ -12558,7 +12495,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12574,7 +12510,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFasterReverse",
@@ -12590,7 +12525,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesSlower",
@@ -12606,7 +12540,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12622,7 +12555,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFasterReverse",
@@ -12638,7 +12570,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12654,7 +12585,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFasterReverse",
@@ -12670,7 +12600,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesSlower",
@@ -12686,7 +12615,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "Spikes",
@@ -12702,7 +12630,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 25,
           "layer": "",
           "name": "MoonCheckpoint",
@@ -12718,7 +12645,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12734,7 +12660,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFasterReverse",
@@ -12750,7 +12675,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12766,7 +12690,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFasterReverse",
@@ -12782,7 +12705,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "Spikes",
@@ -12798,7 +12720,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesSlower",
@@ -12814,7 +12735,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "Spikes",
@@ -12830,7 +12750,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFaster",
@@ -12846,7 +12765,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 21,
           "layer": "",
           "name": "SpikesFasterReverse",
@@ -12862,7 +12780,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -12878,7 +12795,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -12894,7 +12810,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -12910,7 +12825,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -12926,7 +12840,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -12942,7 +12855,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -12958,7 +12870,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -12974,7 +12885,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -12990,7 +12900,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13006,7 +12915,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13022,7 +12930,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13038,7 +12945,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13054,7 +12960,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13070,7 +12975,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13086,7 +12990,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13102,7 +13005,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13118,7 +13020,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13134,7 +13035,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13165,7 +13065,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13181,7 +13080,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -13197,7 +13095,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 27,
           "layer": "",
           "name": "LightBulb",
@@ -13213,7 +13110,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 26,
           "layer": "",
           "name": "LightBulb",
@@ -16389,7 +16285,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco"
+              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -16700,7 +16597,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Quando tocar na borda limitadora de baixo, morre também"
+              "comment": "Quando tocar na borda limitadora de baixo, morre também",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -16847,7 +16745,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar"
+              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -16935,7 +16834,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Se o jogador cair em cima da criatura"
+                      "comment": "Se o jogador cair em cima da criatura",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -16984,7 +16884,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Adicionar a pontuação de matar o monstro"
+                          "comment": "Adicionar a pontuação de matar o monstro",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -17012,7 +16913,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Pular no monstro e quicar nele"
+                          "comment": "Pular no monstro e quicar nele",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -17060,7 +16962,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão"
+                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -17174,7 +17077,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela"
+              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -17296,7 +17200,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Redefinir a cor de todos os outros checkpoints"
+                  "comment": "Redefinir a cor de todos os outros checkpoints",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -17343,7 +17248,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Customizar apenas o checkpoint que o jogador está tocando"
+                  "comment": "Customizar apenas o checkpoint que o jogador está tocando",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -17566,7 +17472,7 @@
                   },
                   "parameters": [
                     "MainPlayer",
-                    "Spikes",
+                    "SpikesGroup",
                     "",
                     "",
                     "yes"
@@ -17659,14 +17565,9 @@
           "ambientLightColorB": 8212232,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Background",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -17675,14 +17576,9 @@
           "ambientLightColorB": 167797870,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Foreground",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -17691,14 +17587,9 @@
           "ambientLightColorB": 164,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11566392,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "UI",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -17707,14 +17598,9 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 12365048,
           "ambientLightColorR": 16,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "",
-          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -17734,14 +17620,9 @@
           "ambientLightColorB": 9270840,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11037944,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "GameOver",
-          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -17828,7 +17709,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 80,
           "layer": "",
           "name": "MainPlayer",
@@ -18024,7 +17904,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 87,
           "layer": "GameOver",
           "name": "EndGameText",
@@ -18055,7 +17934,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 67,
           "layer": "",
           "name": "SmallPlatform",
@@ -18731,7 +18609,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18747,7 +18624,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18763,7 +18639,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18779,7 +18654,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18795,7 +18669,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18811,7 +18684,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18827,7 +18699,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18843,7 +18714,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18859,7 +18729,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18875,7 +18744,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18891,7 +18759,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18907,7 +18774,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18923,7 +18789,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18939,7 +18804,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18955,7 +18819,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18971,7 +18834,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -18987,7 +18849,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -19003,7 +18864,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -19019,7 +18879,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -19035,7 +18894,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -19051,7 +18909,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -19067,7 +18924,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -19083,7 +18939,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -19099,7 +18954,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -19115,7 +18969,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 24,
           "layer": "",
           "name": "LightBulb",
@@ -19131,7 +18984,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 85,
           "layer": "",
           "name": "DeathCriature",
@@ -19147,7 +18999,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 82,
           "layer": "",
           "name": "DeathCriature",
@@ -19163,7 +19014,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 82,
           "layer": "",
           "name": "DeathCriature",
@@ -19179,7 +19029,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 82,
           "layer": "",
           "name": "DeathCriature",
@@ -19195,7 +19044,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 82,
           "layer": "",
           "name": "DeathCriature",
@@ -19211,7 +19059,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 82,
           "layer": "",
           "name": "DeathCriature",
@@ -19227,7 +19074,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 82,
           "layer": "",
           "name": "DeathCriature",
@@ -19243,7 +19089,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 82,
           "layer": "",
           "name": "DeathCriature",
@@ -22196,7 +22041,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco"
+              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -22507,7 +22353,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Quando tocar na borda limitadora de baixo, morre também"
+              "comment": "Quando tocar na borda limitadora de baixo, morre também",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -22654,7 +22501,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar"
+              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -22742,7 +22590,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Se o jogador cair em cima da criatura"
+                      "comment": "Se o jogador cair em cima da criatura",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -22791,7 +22640,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Adicionar a pontuação de matar o monstro"
+                          "comment": "Adicionar a pontuação de matar o monstro",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -22819,7 +22669,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Pular no monstro e quicar nele"
+                          "comment": "Pular no monstro e quicar nele",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -22867,7 +22718,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão"
+                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -22981,7 +22833,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela"
+              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -23103,7 +22956,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Redefinir a cor de todos os outros checkpoints"
+                  "comment": "Redefinir a cor de todos os outros checkpoints",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -23150,7 +23004,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Customizar apenas o checkpoint que o jogador está tocando"
+                  "comment": "Customizar apenas o checkpoint que o jogador está tocando",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -23400,14 +23255,9 @@
           "ambientLightColorB": 8212232,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Background",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -23416,14 +23266,9 @@
           "ambientLightColorB": 167797870,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Foreground",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -23432,14 +23277,9 @@
           "ambientLightColorB": 164,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11566392,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "UI",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -23448,14 +23288,9 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 12365048,
           "ambientLightColorR": 16,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "",
-          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -23475,14 +23310,9 @@
           "ambientLightColorB": 9270840,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11037944,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "GameOver",
-          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -23531,7 +23361,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9296875000000103,
+        "zoomFactor": 0.43357743047024283,
         "windowMask": false
       },
       "objectsGroups": [
@@ -23599,7 +23429,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 80,
           "layer": "",
           "name": "MainPlayer",
@@ -24145,7 +23974,7 @@
           "name": "Ladder",
           "persistentUuid": "f54ecbe5-75cb-483b-9498-82ea3bb40359",
           "width": 28,
-          "x": 5431,
+          "x": 5353,
           "y": 299,
           "zOrder": 57,
           "numberProperties": [],
@@ -24160,7 +23989,7 @@
           "name": "LadderTop",
           "persistentUuid": "336f33a5-8d3a-4319-8cb7-3a7196eef916",
           "width": 27,
-          "x": 5432,
+          "x": 5354,
           "y": 304,
           "zOrder": 58,
           "numberProperties": [],
@@ -24620,7 +24449,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 87,
           "layer": "GameOver",
           "name": "EndGameText",
@@ -24866,7 +24694,7 @@
           "name": "MediumPlatform",
           "persistentUuid": "a0eb3a80-da4d-4270-8f5b-fb0d1f30f943",
           "width": 170,
-          "x": 5314,
+          "x": 5236,
           "y": 468,
           "zOrder": 100,
           "numberProperties": [],
@@ -27927,7 +27755,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco"
+              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -28238,7 +28067,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Quando tocar na borda limitadora de baixo, morre também"
+              "comment": "Quando tocar na borda limitadora de baixo, morre também",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -28385,7 +28215,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar"
+              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -28473,7 +28304,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Se o jogador cair em cima da criatura"
+                      "comment": "Se o jogador cair em cima da criatura",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -28522,7 +28354,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Adicionar a pontuação de matar o monstro"
+                          "comment": "Adicionar a pontuação de matar o monstro",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -28550,7 +28383,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Pular no monstro e quicar nele"
+                          "comment": "Pular no monstro e quicar nele",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -28598,7 +28432,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão"
+                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -28711,7 +28546,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela"
+              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -28833,7 +28669,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Redefinir a cor de todos os outros checkpoints"
+                  "comment": "Redefinir a cor de todos os outros checkpoints",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -28880,7 +28717,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Customizar apenas o checkpoint que o jogador está tocando"
+                  "comment": "Customizar apenas o checkpoint que o jogador está tocando",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -29130,14 +28968,9 @@
           "ambientLightColorB": 8212232,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Background",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -29146,14 +28979,9 @@
           "ambientLightColorB": 167797870,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Foreground",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -29162,14 +28990,9 @@
           "ambientLightColorB": 164,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11566392,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "UI",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -29178,14 +29001,9 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 12365048,
           "ambientLightColorR": 16,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "",
-          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -29205,14 +29023,9 @@
           "ambientLightColorB": 9270840,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11037944,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "GameOver",
-          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -29270,7 +29083,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 1284,
           "layer": "Background",
           "name": "Background",
@@ -29316,7 +29128,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 126,
           "layer": "UI",
           "name": "Title",
@@ -30030,14 +29841,9 @@
           "ambientLightColorB": 10960928,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 8807856,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Background",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -30046,14 +29852,9 @@
           "ambientLightColorB": 13563592,
           "ambientLightColorG": 13563592,
           "ambientLightColorR": 1869182049,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "",
-          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -30073,14 +29874,9 @@
           "ambientLightColorB": 11131392,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 10447320,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "UI",
-          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -30089,14 +29885,9 @@
           "ambientLightColorB": 12201728,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 8704376,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
           "name": "Credits",
-          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -30211,7 +30002,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Evaluate the center of movement from the object position and properties."
+                  "comment": "Evaluate the center of movement from the object position and properties.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -30358,7 +30150,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Update the center when the object is moved outside of the behavior."
+                  "comment": "Update the center when the object is moved outside of the behavior.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -30398,7 +30191,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Place the object according to the movement angle."
+                  "comment": "Place the object according to the movement angle.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -30492,7 +30286,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Save the position to detect when the object is moved outside of the behavior."
+                  "comment": "Save the position to detect when the object is moved outside of the behavior.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -30554,7 +30349,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Update the movement angle for the next frame."
+                  "comment": "Update the movement angle for the next frame.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -31640,7 +31436,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "The \"Validated\" state only last one frame."
+                      "comment": "The \"Validated\" state only last one frame.",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -31690,7 +31487,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Make sure the cursor position is only checked once per frame."
+                          "comment": "Make sure the cursor position is only checked once per frame.",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -31754,7 +31552,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Touches are always pressed, so ShouldCheckHovering doesn't matter."
+                          "comment": "Touches are always pressed, so ShouldCheckHovering doesn't matter.",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -32808,7 +32607,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Create one background instance for of each state.\nOnly the instance for the current state is shown."
+                  "comment": "Create one background instance for of each state.\nOnly the instance for the current state is shown.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -32888,7 +32688,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Place the label over the backgrounds."
+                  "comment": "Place the label over the backgrounds.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -33019,7 +32820,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Show the right background accordingly to the new state."
+                      "comment": "Show the right background accordingly to the new state.",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -33384,7 +33186,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Children instances must be resized when the button size change:\n- backgrounds for each state are resized to take the full dimensions of the button\n- the label is put back at the center of the button\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances."
+                      "comment": "Children instances must be resized when the button size change:\n- backgrounds for each state are resized to take the full dimensions of the button\n- the label is put back at the center of the button\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances.",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34653,7 +34456,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Start/Reset duration timer"
+                      "comment": "Start/Reset duration timer",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34680,7 +34484,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them"
+                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34753,7 +34558,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Determine if the shake should keep going until stopped"
+                      "comment": "Determine if the shake should keep going until stopped",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34806,7 +34612,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Add default values if none were provided"
+                      "comment": "Add default values if none were provided",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34876,7 +34683,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake"
+                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34917,7 +34725,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Detect initial shake"
+                      "comment": "Detect initial shake",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34958,7 +34767,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Initiate the onScenePostEvents function"
+                      "comment": "Initiate the onScenePostEvents function",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -35080,7 +34890,8 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Keep object shaking forever (if desired)"
+                              "comment": "Keep object shaking forever (if desired)",
+                              "comment2": ""
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -35138,7 +34949,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Run once before every shake movement"
+                                  "comment": "Run once before every shake movement",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -35215,7 +35027,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Move to correct any drift from previous shake"
+                                          "comment": "Move to correct any drift from previous shake",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35312,7 +35125,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Reset drift detection variables"
+                                          "comment": "Reset drift detection variables",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35366,7 +35180,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Position Shake"
+                                      "comment": "Calculate Position Shake",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35414,7 +35229,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]"
+                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -35426,7 +35242,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect"
+                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35515,7 +35332,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "After initial shake pick a random direction"
+                                          "comment": "After initial shake pick a random direction",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35606,7 +35424,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Rotation (angle) shake "
+                                      "comment": "Calculate Rotation (angle) shake ",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35635,7 +35454,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"even\" shake, rotate clockwise"
+                                          "comment": "Every \"even\" shake, rotate clockwise",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -35647,7 +35467,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35687,7 +35508,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"odd\" shake, rotate counter-clockwise"
+                                          "comment": "Every \"odd\" shake, rotate counter-clockwise",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -35699,7 +35521,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35741,7 +35564,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save that initial shake has been processed"
+                                      "comment": "Save that initial shake has been processed",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35784,7 +35608,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate the fraction of shake that occured during this frame"
+                                  "comment": "Calculate the fraction of shake that occured during this frame",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -35813,7 +35638,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Increase change for the first half of the shake (move away from original values)"
+                                  "comment": "Increase change for the first half of the shake (move away from original values)",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -35842,7 +35668,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position"
+                                      "comment": "Change position",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35911,7 +35738,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift"
+                                          "comment": "Save movement to calculate drift",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35953,7 +35781,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle"
+                                      "comment": "Change angle",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35992,7 +35821,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift"
+                                          "comment": "Save movement to calculate drift",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -36025,7 +35855,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Decrease change the second half of the shake (return to original position)"
+                                  "comment": "Decrease change the second half of the shake (return to original position)",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -36053,7 +35884,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position"
+                                      "comment": "Change position",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -36122,7 +35954,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift"
+                                          "comment": "Save movement to calculate drift",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -36164,7 +35997,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle"
+                                      "comment": "Change angle",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -36203,7 +36037,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift"
+                                          "comment": "Save movement to calculate drift",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -36253,7 +36088,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)"
+                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -36338,7 +36174,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Move to correct any drift from previous shake"
+                                  "comment": "Move to correct any drift from previous shake",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -36435,7 +36272,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Reset drift detection variables"
+                                  "comment": "Reset drift detection variables",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -36639,7 +36477,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Start/Reset duration timer"
+                      "comment": "Start/Reset duration timer",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36666,7 +36505,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them"
+                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36750,7 +36590,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Determine if the shake should keep going until stopped"
+                      "comment": "Determine if the shake should keep going until stopped",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36803,7 +36644,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Add default values if none were provided"
+                      "comment": "Add default values if none were provided",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36873,7 +36715,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake"
+                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36914,7 +36757,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Detect initial shake"
+                      "comment": "Detect initial shake",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36955,7 +36799,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Initiate the onScenePostEvents function"
+                      "comment": "Initiate the onScenePostEvents function",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -37083,7 +36928,8 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Keep object shaking forever (if desired)"
+                              "comment": "Keep object shaking forever (if desired)",
+                              "comment2": ""
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -37141,7 +36987,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Run once before every shake movement"
+                                  "comment": "Run once before every shake movement",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -37219,7 +37066,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Move to correct any drift from previous shake"
+                                          "comment": "Move to correct any drift from previous shake",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37344,7 +37192,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Reset drift detection variables"
+                                          "comment": "Reset drift detection variables",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37409,7 +37258,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Position Shake"
+                                      "comment": "Calculate Position Shake",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -37457,7 +37307,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]"
+                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37469,7 +37320,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect"
+                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37558,7 +37410,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "After initial shake pick a random direction"
+                                          "comment": "After initial shake pick a random direction",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37649,7 +37502,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Rotation (angle) shake "
+                                      "comment": "Calculate Rotation (angle) shake ",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -37678,7 +37532,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"even\" shake, rotate clockwise"
+                                          "comment": "Every \"even\" shake, rotate clockwise",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37690,7 +37545,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37730,7 +37586,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"odd\" shake, rotate counter-clockwise"
+                                          "comment": "Every \"odd\" shake, rotate counter-clockwise",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37742,7 +37599,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37784,7 +37642,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Scale shake"
+                                      "comment": "Calculate Scale shake",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -37813,7 +37672,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Calculate object scale displacement, with linear decay over time"
+                                          "comment": "Calculate object scale displacement, with linear decay over time",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37825,7 +37685,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "ScaleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100"
+                                          "comment": "ScaleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37837,7 +37698,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every even shake, increase scale"
+                                          "comment": "Every even shake, increase scale",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37877,7 +37739,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"odd\" shake, decrease scale"
+                                          "comment": "Every \"odd\" shake, decrease scale",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37889,7 +37752,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "ScaleDisplacement = -1 * (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100"
+                                          "comment": "ScaleDisplacement = -1 * (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37931,7 +37795,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save that initial shake has been processed"
+                                      "comment": "Save that initial shake has been processed",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -37974,7 +37839,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate the fraction of shake that occured during this frame"
+                                  "comment": "Calculate the fraction of shake that occured during this frame",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -38003,7 +37869,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Increase change for the first half of the shake (move away from original values)"
+                                  "comment": "Increase change for the first half of the shake (move away from original values)",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -38032,7 +37899,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position"
+                                      "comment": "Change position",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38101,7 +37969,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift"
+                                          "comment": "Save movement to calculate drift",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38143,7 +38012,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle"
+                                      "comment": "Change angle",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38182,7 +38052,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift"
+                                          "comment": "Save movement to calculate drift",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38213,7 +38084,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change scale"
+                                      "comment": "Change scale",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38252,7 +38124,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift"
+                                          "comment": "Save movement to calculate drift",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38285,7 +38158,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Decrease change the second half of the shake (return to original position)"
+                                  "comment": "Decrease change the second half of the shake (return to original position)",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -38313,7 +38187,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position"
+                                      "comment": "Change position",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38382,7 +38257,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift"
+                                          "comment": "Save movement to calculate drift",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38424,7 +38300,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle"
+                                      "comment": "Change angle",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38463,7 +38340,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift"
+                                          "comment": "Save movement to calculate drift",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38494,7 +38372,8 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change scale"
+                                      "comment": "Change scale",
+                                      "comment2": ""
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38533,7 +38412,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift"
+                                          "comment": "Save movement to calculate drift",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38583,7 +38463,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)"
+                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -38668,7 +38549,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Move to correct any drift from previous shake"
+                                  "comment": "Move to correct any drift from previous shake",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -38793,7 +38675,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Reset drift detection variables"
+                                  "comment": "Reset drift detection variables",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -39074,7 +38957,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Set the initial state according to the configuration."
+                  "comment": "Set the initial state according to the configuration.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -39223,7 +39107,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Update the rectangle when the object is moved outside of the behavior."
+                  "comment": "Update the rectangle when the object is moved outside of the behavior.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -39263,7 +39148,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Move the object on the rectangular path."
+                  "comment": "Move the object on the rectangular path.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -39293,7 +39179,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Save the position to detect when the object is moved outside of the behavior."
+                  "comment": "Save the position to detect when the object is moved outside of the behavior.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -39355,7 +39242,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Step on the path."
+                  "comment": "Step on the path.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -41942,7 +41830,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Update private properties through setters to check their values and initialize state."
+                  "comment": "Update private properties through setters to check their values and initialize state.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -42175,7 +42064,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "The camera following is called with an action, the call from doStepPreEvents must be disabled to avoid to do it twice."
+                  "comment": "The camera following is called with an action, the call from doStepPreEvents must be disabled to avoid to do it twice.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -42237,7 +42127,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Delaying and forecasting can be used at the same time.\nForecasting only use the positions that are older than the one used for delaying.\nThe behavior uses a position history that is split in 2 arrays:\n- one for delaying the position (from TimeFromStart to TimeFromStart - CamearDelay)\n- one for forecasting the position (from TimeFromStart - CamearDelay to TimeFromStart - CamearDelay - ForecastHistoryDuration"
+                  "comment": "Delaying and forecasting can be used at the same time.\nForecasting only use the positions that are older than the one used for delaying.\nThe behavior uses a position history that is split in 2 arrays:\n- one for delaying the position (from TimeFromStart to TimeFromStart - CamearDelay)\n- one for forecasting the position (from TimeFromStart - CamearDelay to TimeFromStart - CamearDelay - ForecastHistoryDuration",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -42275,7 +42166,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "At each frame, the camera must catchup the target by a given ratio (speed)\ncameraX(t) - targetX = (cameraX(t - 1) - targetX) * speed\n\nThe frame rate must not impact on the catch-up speed, we don't want a speed in ratio per frame but a speed ratio per second, like this:\ncameraX(t) - targetX = (cameraX(t - 1s) - targetX) * speed\n\nOk, but we still need to process each frame, we can use a exponent for this:\ncameraX(t) - targetX = (cameraX(t - timeDelta) - targetX) * speed^timeDelta\ncameraX(t) = targetX + (cameraX(t - timeDelta) - targetX) * exp(timeDelta * ln(speed))\n\npow is probably more efficient than precalculated log if the speed is changed continuously but this might be rare enough."
+                  "comment": "At each frame, the camera must catchup the target by a given ratio (speed)\ncameraX(t) - targetX = (cameraX(t - 1) - targetX) * speed\n\nThe frame rate must not impact on the catch-up speed, we don't want a speed in ratio per frame but a speed ratio per second, like this:\ncameraX(t) - targetX = (cameraX(t - 1s) - targetX) * speed\n\nOk, but we still need to process each frame, we can use a exponent for this:\ncameraX(t) - targetX = (cameraX(t - timeDelta) - targetX) * speed^timeDelta\ncameraX(t) = targetX + (cameraX(t - timeDelta) - targetX) * exp(timeDelta * ln(speed))\n\npow is probably more efficient than precalculated log if the speed is changed continuously but this might be rare enough.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -42624,7 +42516,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Maybe the catch-up show be done in constant pixel speed instead of constant time speed."
+                  "comment": "Maybe the catch-up show be done in constant pixel speed instead of constant time speed.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -43900,7 +43793,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Deprecated use SetOffsetXOp instead."
+                  "comment": "Deprecated use SetOffsetXOp instead.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -43999,7 +43893,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Deprecated use SetOffsetYOp instead."
+                  "comment": "Deprecated use SetOffsetYOp instead.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -44361,7 +44256,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Add the previous position to have enough (2) positions to evaluate the extra delay for waiting mode."
+                  "comment": "Add the previous position to have enough (2) positions to evaluate the extra delay for waiting mode.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -44430,7 +44326,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Use the object center when no delay is asked."
+                  "comment": "Use the object center when no delay is asked.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -44566,7 +44463,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Remove history entries that are too old to be useful for delaying and pass it to the history for forecasting."
+                      "comment": "Remove history entries that are too old to be useful for delaying and pass it to the history for forecasting.",
+                      "comment2": ""
                     },
                     {
                       "infiniteLoopWarning": true,
@@ -44651,7 +44549,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Don't move the camera if there is not enough history."
+                      "comment": "Don't move the camera if there is not enough history.",
+                      "comment2": ""
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -44718,7 +44617,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Add the extra delay that could be needed to respect the speed limit in waiting mode.\n\nspeedRatio = min(speedMaxX / historySpeedX, speedMaxY / historySpeedY)\ndelay += min(0, timeDelta * (1 - speedRatio))"
+                          "comment": "Add the extra delay that could be needed to respect the speed limit in waiting mode.\n\nspeedRatio = min(speedMaxX / historySpeedX, speedMaxY / historySpeedY)\ndelay += min(0, timeDelta * (1 - speedRatio))",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -44777,7 +44677,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "The time with delay is now between the first 2 indexes"
+                          "comment": "The time with delay is now between the first 2 indexes",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -45222,7 +45123,8 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Remove history entries that are too old to be useful.\nKeep at least 2 positions because no forecast can be done with less positions."
+                      "comment": "Remove history entries that are too old to be useful.\nKeep at least 2 positions because no forecast can be done with less positions.",
+                      "comment2": ""
                     },
                     {
                       "infiniteLoopWarning": true,
@@ -45364,7 +45266,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Simple linear regression\ny = A * x + B\n\nA = Covariance / VarianceX\nB = MeanY - A * MeanX\n\nNote than we could use only one position every N positions to reduce the process time,\nbut if we really need efficient process JavaScript and circular queues are a must."
+                  "comment": "Simple linear regression\ny = A * x + B\n\nA = Covariance / VarianceX\nB = MeanY - A * MeanX\n\nNote than we could use only one position every N positions to reduce the process time,\nbut if we really need efficient process JavaScript and circular queues are a must.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -45620,7 +45523,8 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "VarianceX = sum((X[i] - MeanX)²)\nVarianceY = sum((Y[i] - MeanY)²)\nCovariance = sum((X[i] - MeanX) * (Y[i] - MeanY))"
+                          "comment": "VarianceX = sum((X[i] - MeanX)²)\nVarianceY = sum((Y[i] - MeanY)²)\nCovariance = sum((X[i] - MeanX) * (Y[i] - MeanY))",
+                          "comment2": ""
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -45842,7 +45746,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "y = A * x + B\n\nA = Covariance / VarianceX\nB = MeanY - A * MeanX"
+                                  "comment": "y = A * x + B\n\nA = Covariance / VarianceX\nB = MeanY - A * MeanX",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -45944,7 +45849,8 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Axis permutation to avoid a ratio between 2 numbers near 0."
+                                  "comment": "Axis permutation to avoid a ratio between 2 numbers near 0.",
+                                  "comment2": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -46041,7 +45947,8 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Permute back axis"
+                                          "comment": "Permute back axis",
+                                          "comment2": ""
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -46262,7 +46169,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Perpendicular line:\npA = -1/a; \npB = -pA * x + y\n\nIntersection:\n/ ProjectedY = a * ProjectedX + b\n\\ ProjectedY = pA * ProjectedX + b\n\nSolution that is cleaned out from indeterminism (like 0 / 0 or infinity / infinity):\nProjectedX= (x + (y - b) * a) / (a² + 1)\nProjectedY = y + (x * a - y + b) / (a² + 1)"
+                  "comment": "Perpendicular line:\npA = -1/a; \npB = -pA * x + y\n\nIntersection:\n/ ProjectedY = a * ProjectedX + b\n\\ ProjectedY = pA * ProjectedX + b\n\nSolution that is cleaned out from indeterminism (like 0 / 0 or infinity / infinity):\nProjectedX= (x + (y - b) * a) / (a² + 1)\nProjectedY = y + (x * a - y + b) / (a² + 1)",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
