@@ -8,6 +8,8 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
@@ -4961,8 +4963,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco",
-              "comment2": ""
+              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5273,8 +5274,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Quando tocar na borda limitadora de baixo, morre também",
-              "comment2": ""
+              "comment": "Quando tocar na borda limitadora de baixo, morre também"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5396,8 +5396,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar",
-              "comment2": ""
+              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5485,8 +5484,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Se o jogador cair em cima da criatura",
-                      "comment2": ""
+                      "comment": "Se o jogador cair em cima da criatura"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -5535,8 +5533,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Adicionar a pontuação de matar o monstro",
-                          "comment2": ""
+                          "comment": "Adicionar a pontuação de matar o monstro"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -5564,8 +5561,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Pular no monstro e quicar nele",
-                          "comment2": ""
+                          "comment": "Pular no monstro e quicar nele"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -5613,8 +5609,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão",
-                          "comment2": ""
+                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -5728,8 +5723,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela",
-              "comment2": ""
+              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5851,8 +5845,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Redefinir a cor de todos os outros checkpoints",
-                  "comment2": ""
+                  "comment": "Redefinir a cor de todos os outros checkpoints"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5899,8 +5892,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Customizar apenas o checkpoint que o jogador está tocando",
-                  "comment2": ""
+                  "comment": "Customizar apenas o checkpoint que o jogador está tocando"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -6071,7 +6063,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Botão Tela Game Over",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6096,7 +6087,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level #1\"",
+                    "\"Level #5\"",
                     "yes"
                   ]
                 }
@@ -6216,9 +6207,14 @@
           "ambientLightColorB": 8212232,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Background",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -6227,9 +6223,14 @@
           "ambientLightColorB": 167797870,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Foreground",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -6238,9 +6239,14 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 12365048,
           "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -6260,9 +6266,14 @@
           "ambientLightColorB": 164,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11566392,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "UI",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -6271,9 +6282,14 @@
           "ambientLightColorB": 9270840,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11037944,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "GameOver",
+          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -9941,8 +9957,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco",
-              "comment2": ""
+              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10253,8 +10268,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Quando tocar na borda limitadora de baixo, morre também",
-              "comment2": ""
+              "comment": "Quando tocar na borda limitadora de baixo, morre também"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10377,8 +10391,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar",
-              "comment2": ""
+              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10466,8 +10479,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Se o jogador cair em cima da criatura",
-                      "comment2": ""
+                      "comment": "Se o jogador cair em cima da criatura"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -10516,8 +10528,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Adicionar a pontuação de matar o monstro",
-                          "comment2": ""
+                          "comment": "Adicionar a pontuação de matar o monstro"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -10545,8 +10556,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Pular no monstro e quicar nele",
-                          "comment2": ""
+                          "comment": "Pular no monstro e quicar nele"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -10594,8 +10604,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão",
-                          "comment2": ""
+                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -10709,8 +10718,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela",
-              "comment2": ""
+              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10832,8 +10840,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Redefinir a cor de todos os outros checkpoints",
-                  "comment2": ""
+                  "comment": "Redefinir a cor de todos os outros checkpoints"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -10880,8 +10887,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Customizar apenas o checkpoint que o jogador está tocando",
-                  "comment2": ""
+                  "comment": "Customizar apenas o checkpoint que o jogador está tocando"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -11052,7 +11058,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Botão Tela Game Over",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11077,7 +11082,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level #1\"",
+                    "\"Level #4\"",
                     "yes"
                   ]
                 }
@@ -11197,9 +11202,14 @@
           "ambientLightColorB": 8212232,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Background",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -11208,9 +11218,14 @@
           "ambientLightColorB": 167797870,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Foreground",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -11219,9 +11234,14 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 12365048,
           "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -11241,9 +11261,14 @@
           "ambientLightColorB": 164,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11566392,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "UI",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -11252,9 +11277,14 @@
           "ambientLightColorB": 9270840,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11037944,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "GameOver",
+          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -11303,7 +11333,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998330135,
+        "zoomFactor": 1.0615714305220234,
         "windowMask": false
       },
       "objectsGroups": [
@@ -11375,7 +11405,7 @@
           "name": "BackgroundDarkSunset",
           "persistentUuid": "070d6c6e-0187-4c04-a8db-09d8ecab841f",
           "width": 9109,
-          "x": -59,
+          "x": 80,
           "y": -289,
           "zOrder": 6,
           "numberProperties": [],
@@ -11720,8 +11750,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "2a5a2470-896f-4c38-9fcc-eb16b81d19a1",
           "width": 0,
-          "x": 1707,
-          "y": 364,
+          "x": 1701,
+          "y": 389,
           "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
@@ -11765,8 +11795,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "501d77d2-5727-4347-bf5f-d1c84c9d3e69",
           "width": 0,
-          "x": 2406,
-          "y": 349,
+          "x": 2404,
+          "y": 403,
           "zOrder": 111,
           "numberProperties": [],
           "stringProperties": [],
@@ -11780,8 +11810,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "fabaf7c6-cc4c-4a72-b74e-b5e5b606cff2",
           "width": 0,
-          "x": 2547,
-          "y": 230,
+          "x": 2628,
+          "y": 276,
           "zOrder": 112,
           "numberProperties": [],
           "stringProperties": [],
@@ -11810,8 +11840,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "5046ffa7-268f-49f4-81a4-631c099d0863",
           "width": 0,
-          "x": 2991,
-          "y": 392,
+          "x": 2904,
+          "y": 397,
           "zOrder": 114,
           "numberProperties": [],
           "stringProperties": [],
@@ -11855,8 +11885,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "77b3c6ae-9895-4fc1-ae82-dfa4f7c99619",
           "width": 0,
-          "x": 3812,
-          "y": 431,
+          "x": 3844,
+          "y": 440,
           "zOrder": 117,
           "numberProperties": [],
           "stringProperties": [],
@@ -11870,8 +11900,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "e9fabf99-41ee-41c3-b681-c5a4491fe04f",
           "width": 0,
-          "x": 4003,
-          "y": 364,
+          "x": 4006,
+          "y": 386,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -11900,8 +11930,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "e8dea206-4e9b-4253-9fa7-1ac9699406a8",
           "width": 0,
-          "x": 4362,
-          "y": 340,
+          "x": 4344,
+          "y": 397,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -11915,8 +11945,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "acc7742e-2ef5-4371-bf07-d97fb41efbe9",
           "width": 0,
-          "x": 4497,
-          "y": 224,
+          "x": 4478,
+          "y": 342,
           "zOrder": 121,
           "numberProperties": [],
           "stringProperties": [],
@@ -11930,8 +11960,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "8f16948e-e155-4490-acd0-8b9a5190c148",
           "width": 0,
-          "x": 4668,
-          "y": 112,
+          "x": 4627,
+          "y": 296,
           "zOrder": 122,
           "numberProperties": [],
           "stringProperties": [],
@@ -11945,8 +11975,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "59be2857-a5bd-45ae-b3e3-f42d2637d7a7",
           "width": 0,
-          "x": 4884,
-          "y": 101,
+          "x": 4796,
+          "y": 261,
           "zOrder": 123,
           "numberProperties": [],
           "stringProperties": [],
@@ -11960,8 +11990,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "86b2088c-1304-4f8c-9ea2-68ae9110b7f4",
           "width": 0,
-          "x": 5051,
-          "y": 175,
+          "x": 4985,
+          "y": 251,
           "zOrder": 124,
           "numberProperties": [],
           "stringProperties": [],
@@ -12005,8 +12035,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "a36d3b0f-c5ef-45b0-8812-da774aa44819",
           "width": 0,
-          "x": 5622,
-          "y": 429,
+          "x": 5575,
+          "y": 440,
           "zOrder": 127,
           "numberProperties": [],
           "stringProperties": [],
@@ -12020,8 +12050,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "1638a8f9-4ac0-41b7-a851-0f2480c31635",
           "width": 0,
-          "x": 5796,
-          "y": 341,
+          "x": 5738,
+          "y": 400,
           "zOrder": 128,
           "numberProperties": [],
           "stringProperties": [],
@@ -12035,8 +12065,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "97c97ade-4504-4276-a49b-108fa0c54f45",
           "width": 0,
-          "x": 5940,
-          "y": 253,
+          "x": 5893,
+          "y": 337,
           "zOrder": 129,
           "numberProperties": [],
           "stringProperties": [],
@@ -12065,8 +12095,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "15b181df-b0c0-43d0-8bb9-a2ecd08c3cae",
           "width": 0,
-          "x": 6427,
-          "y": 429,
+          "x": 6405,
+          "y": 459,
           "zOrder": 131,
           "numberProperties": [],
           "stringProperties": [],
@@ -12080,8 +12110,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "228e1d22-3e9d-4f01-9dbc-dc891fb34ba0",
           "width": 0,
-          "x": 6619,
-          "y": 319,
+          "x": 6562,
+          "y": 408,
           "zOrder": 132,
           "numberProperties": [],
           "stringProperties": [],
@@ -12095,8 +12125,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "2660c01d-12a0-4afd-a13f-999be6521113",
           "width": 0,
-          "x": 6791,
-          "y": 251,
+          "x": 6721,
+          "y": 364,
           "zOrder": 133,
           "numberProperties": [],
           "stringProperties": [],
@@ -12110,8 +12140,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "74c76a9f-4e00-4dd4-a7c5-d5495aa27c06",
           "width": 0,
-          "x": 7001,
-          "y": 400,
+          "x": 6920,
+          "y": 416,
           "zOrder": 134,
           "numberProperties": [],
           "stringProperties": [],
@@ -12125,8 +12155,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "edf34d05-c3f4-4bab-9c88-a59b9c7c632e",
           "width": 0,
-          "x": 7233,
-          "y": 471,
+          "x": 7072,
+          "y": 474,
           "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
@@ -12140,8 +12170,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "c12f2010-0491-49f9-b7f4-05422da85fd2",
           "width": 0,
-          "x": 7391,
-          "y": 370,
+          "x": 7236,
+          "y": 443,
           "zOrder": 136,
           "numberProperties": [],
           "stringProperties": [],
@@ -12155,8 +12185,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "e92d4c26-a748-48e5-88a0-48b8daab2ecf",
           "width": 0,
-          "x": 7571,
-          "y": 290,
+          "x": 7396,
+          "y": 404,
           "zOrder": 137,
           "numberProperties": [],
           "stringProperties": [],
@@ -12170,8 +12200,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "52088ed5-e4a4-4142-bf6f-8f6d88c34bb6",
           "width": 0,
-          "x": 7783,
-          "y": 383,
+          "x": 7750,
+          "y": 439,
           "zOrder": 138,
           "numberProperties": [],
           "stringProperties": [],
@@ -12185,8 +12215,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "b8640f68-dd2a-47cd-b2e8-3f6c69573c0f",
           "width": 0,
-          "x": 8007,
-          "y": 460,
+          "x": 7940,
+          "y": 461,
           "zOrder": 139,
           "numberProperties": [],
           "stringProperties": [],
@@ -12200,8 +12230,8 @@
           "name": "SmallPlatform",
           "persistentUuid": "140205e2-4923-4279-83b1-5e540d20decb",
           "width": 0,
-          "x": 8226,
-          "y": 468,
+          "x": 8109,
+          "y": 466,
           "zOrder": 140,
           "numberProperties": [],
           "stringProperties": [],
@@ -12218,21 +12248,6 @@
           "x": 247,
           "y": 396,
           "zOrder": 141,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 21,
-          "layer": "",
-          "name": "SpikesFaster",
-          "persistentUuid": "b47e738d-a2c8-4a66-93c5-0c70584dd4d8",
-          "width": 58,
-          "x": 645,
-          "y": 267,
-          "zOrder": 142,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12318,25 +12333,10 @@
           "height": 21,
           "layer": "",
           "name": "SpikesSlower",
-          "persistentUuid": "153ee48d-e2d6-4a61-ad11-9c5b2bc9c7fb",
-          "width": 58,
-          "x": 2277,
-          "y": 457,
-          "zOrder": 147,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 21,
-          "layer": "",
-          "name": "SpikesSlower",
           "persistentUuid": "6ac04e56-491f-4fb9-a770-f10871d59219",
           "width": 58,
-          "x": 2548,
-          "y": 215,
+          "x": 2629,
+          "y": 261,
           "zOrder": 147,
           "numberProperties": [],
           "stringProperties": [],
@@ -12360,43 +12360,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 21,
-          "layer": "",
-          "name": "SpikesFaster",
-          "persistentUuid": "b3bc4e7d-256c-441d-a0a0-a1db5a4d1201",
-          "width": 58,
-          "x": 1495,
-          "y": 348,
-          "zOrder": 146,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 21,
-          "layer": "",
-          "name": "SpikesSlower",
-          "persistentUuid": "b2522b65-8fe6-4ee2-9e68-117ba4759b59",
-          "width": 58,
-          "x": 2013,
-          "y": 461,
-          "zOrder": 147,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 25,
           "layer": "",
           "name": "MoonCheckpoint",
           "persistentUuid": "91476f67-b237-4ee2-95ea-263390af7cbe",
           "width": 25,
-          "x": 2423,
-          "y": 316,
+          "x": 2420,
+          "y": 363,
           "zOrder": 144,
           "numberProperties": [],
           "stringProperties": [],
@@ -12410,8 +12380,8 @@
           "name": "SpikesFaster",
           "persistentUuid": "5edc70f6-5bac-444d-acd8-bc3534b1c2f6",
           "width": 58,
-          "x": 2993,
-          "y": 377,
+          "x": 2905,
+          "y": 380,
           "zOrder": 146,
           "numberProperties": [],
           "stringProperties": [],
@@ -12440,8 +12410,8 @@
           "name": "Spikes",
           "persistentUuid": "2d9f08ea-df80-4ca7-940f-2c29c953853f",
           "width": 58,
-          "x": 3813,
-          "y": 414,
+          "x": 3845,
+          "y": 422,
           "zOrder": 148,
           "numberProperties": [],
           "stringProperties": [],
@@ -12455,8 +12425,8 @@
           "name": "MoonCheckpoint",
           "persistentUuid": "71131e9f-20bd-4765-b27c-319e8f26c7bb",
           "width": 25,
-          "x": 4682,
-          "y": 76,
+          "x": 4641,
+          "y": 260,
           "zOrder": 144,
           "numberProperties": [],
           "stringProperties": [],
@@ -12485,8 +12455,8 @@
           "name": "SpikesFasterReverse",
           "persistentUuid": "e42b3a62-dfae-4407-85f6-b929bcd04cd4",
           "width": 58,
-          "x": 4362,
-          "y": 363,
+          "x": 4344,
+          "y": 420,
           "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
@@ -12500,8 +12470,8 @@
           "name": "SpikesFaster",
           "persistentUuid": "f58032f4-f6c8-4af3-ad17-d9e24607c121",
           "width": 58,
-          "x": 4498,
-          "y": 207,
+          "x": 4479,
+          "y": 325,
           "zOrder": 149,
           "numberProperties": [],
           "stringProperties": [],
@@ -12515,8 +12485,8 @@
           "name": "SpikesFasterReverse",
           "persistentUuid": "16fdbb31-79fc-4744-ba46-f9f13dd28f2e",
           "width": 58,
-          "x": 4004,
-          "y": 385,
+          "x": 4007,
+          "y": 407,
           "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
@@ -12545,8 +12515,8 @@
           "name": "SpikesFaster",
           "persistentUuid": "1458a916-25d1-4960-a9b1-955833d9479d",
           "width": 58,
-          "x": 4885,
-          "y": 84,
+          "x": 4797,
+          "y": 244,
           "zOrder": 151,
           "numberProperties": [],
           "stringProperties": [],
@@ -12560,8 +12530,8 @@
           "name": "SpikesFasterReverse",
           "persistentUuid": "5d52624a-fd31-4b0d-96f9-9245ab8158a1",
           "width": 58,
-          "x": 5052,
-          "y": 198,
+          "x": 4986,
+          "y": 274,
           "zOrder": 152,
           "numberProperties": [],
           "stringProperties": [],
@@ -12605,8 +12575,8 @@
           "name": "SpikesSlower",
           "persistentUuid": "8deaee62-c4ef-4a40-a2b2-7406fc351b6c",
           "width": 58,
-          "x": 5623,
-          "y": 412,
+          "x": 5576,
+          "y": 423,
           "zOrder": 153,
           "numberProperties": [],
           "stringProperties": [],
@@ -12620,8 +12590,8 @@
           "name": "Spikes",
           "persistentUuid": "f37f3f73-19d2-4266-914d-681a8172915c",
           "width": 58,
-          "x": 5797,
-          "y": 324,
+          "x": 5739,
+          "y": 383,
           "zOrder": 154,
           "numberProperties": [],
           "stringProperties": [],
@@ -12650,8 +12620,8 @@
           "name": "SpikesFaster",
           "persistentUuid": "cca9e3e3-d806-4074-ac2f-428167665c8d",
           "width": 58,
-          "x": 6428,
-          "y": 413,
+          "x": 6406,
+          "y": 443,
           "zOrder": 155,
           "numberProperties": [],
           "stringProperties": [],
@@ -12665,8 +12635,8 @@
           "name": "SpikesFasterReverse",
           "persistentUuid": "69b090eb-3489-4252-9dd4-174d09b6af51",
           "width": 58,
-          "x": 6621,
-          "y": 342,
+          "x": 6564,
+          "y": 431,
           "zOrder": 156,
           "numberProperties": [],
           "stringProperties": [],
@@ -12680,8 +12650,8 @@
           "name": "SpikesFaster",
           "persistentUuid": "03f7e567-4d60-47b6-96dd-ce5a1a7b585c",
           "width": 58,
-          "x": 6792,
-          "y": 235,
+          "x": 6722,
+          "y": 348,
           "zOrder": 157,
           "numberProperties": [],
           "stringProperties": [],
@@ -12695,8 +12665,8 @@
           "name": "SpikesFasterReverse",
           "persistentUuid": "3781de37-7ee3-401e-b0dd-45ac782f74b3",
           "width": 58,
-          "x": 7002,
-          "y": 422,
+          "x": 6921,
+          "y": 438,
           "zOrder": 158,
           "numberProperties": [],
           "stringProperties": [],
@@ -12710,8 +12680,8 @@
           "name": "Spikes",
           "persistentUuid": "0cea0d44-a968-4afd-baa0-fe128470fd4c",
           "width": 58,
-          "x": 7233,
-          "y": 454,
+          "x": 7072,
+          "y": 457,
           "zOrder": 159,
           "numberProperties": [],
           "stringProperties": [],
@@ -12725,24 +12695,9 @@
           "name": "SpikesSlower",
           "persistentUuid": "4056c9fb-0e47-4400-b06e-794c656e0044",
           "width": 58,
-          "x": 7392,
-          "y": 354,
+          "x": 7396,
+          "y": 387,
           "zOrder": 160,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 21,
-          "layer": "",
-          "name": "Spikes",
-          "persistentUuid": "0ffe17e7-ec9b-4bcf-b8e6-a1533ff7b933",
-          "width": 58,
-          "x": 7572,
-          "y": 274,
-          "zOrder": 159,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12755,8 +12710,8 @@
           "name": "SpikesFaster",
           "persistentUuid": "79a20cc7-4f16-4864-8e0d-84c81b7941f6",
           "width": 58,
-          "x": 7785,
-          "y": 367,
+          "x": 7752,
+          "y": 423,
           "zOrder": 157,
           "numberProperties": [],
           "stringProperties": [],
@@ -12770,8 +12725,8 @@
           "name": "SpikesFasterReverse",
           "persistentUuid": "ec52edb4-1294-48d6-b949-7d153dacaef5",
           "width": 58,
-          "x": 8008,
-          "y": 484,
+          "x": 7941,
+          "y": 485,
           "zOrder": 161,
           "numberProperties": [],
           "stringProperties": [],
@@ -12830,8 +12785,8 @@
           "name": "LightBulb",
           "persistentUuid": "674f8ca0-b4a9-4bb3-ba78-977caab3b5ed",
           "width": 20,
-          "x": 1711,
-          "y": 272,
+          "x": 1708,
+          "y": 309,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -12845,8 +12800,8 @@
           "name": "LightBulb",
           "persistentUuid": "5f6c430e-f37d-4da3-8776-1dc330b47ccf",
           "width": 20,
-          "x": 1736,
-          "y": 273,
+          "x": 1733,
+          "y": 310,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -12860,8 +12815,8 @@
           "name": "LightBulb",
           "persistentUuid": "e363573b-c217-449c-b4f2-15738121e95f",
           "width": 20,
-          "x": 1736,
-          "y": 241,
+          "x": 1733,
+          "y": 278,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -12875,8 +12830,8 @@
           "name": "LightBulb",
           "persistentUuid": "39ebb8d8-aff7-41d3-9eb3-814f38f38e68",
           "width": 20,
-          "x": 1712,
-          "y": 240,
+          "x": 1709,
+          "y": 277,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -12890,8 +12845,8 @@
           "name": "LightBulb",
           "persistentUuid": "c541eb1b-f516-4e61-8709-9c9315424436",
           "width": 20,
-          "x": 2564,
-          "y": 189,
+          "x": 2645,
+          "y": 235,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -12980,8 +12935,8 @@
           "name": "LightBulb",
           "persistentUuid": "4f84ccaa-b756-4b1f-9e35-18b4c44480c7",
           "width": 20,
-          "x": 5191,
-          "y": 118,
+          "x": 5203,
+          "y": 191,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -12995,8 +12950,8 @@
           "name": "LightBulb",
           "persistentUuid": "6112332e-0398-4409-bc55-69a13023aa11",
           "width": 20,
-          "x": 5216,
-          "y": 119,
+          "x": 5228,
+          "y": 192,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -13010,8 +12965,8 @@
           "name": "LightBulb",
           "persistentUuid": "25d47363-6a81-4e11-b400-77eef42027eb",
           "width": 20,
-          "x": 5191,
-          "y": 152,
+          "x": 5203,
+          "y": 225,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -13025,8 +12980,8 @@
           "name": "LightBulb",
           "persistentUuid": "6fb108b7-f61c-46e5-a48d-28ccda77cb7c",
           "width": 20,
-          "x": 5215,
-          "y": 152,
+          "x": 5227,
+          "y": 225,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -13040,8 +12995,8 @@
           "name": "LightBulb",
           "persistentUuid": "db1f55a9-962f-4f25-98ce-abd08b0ccb9d",
           "width": 20,
-          "x": 5957,
-          "y": 218,
+          "x": 5910,
+          "y": 302,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -13070,8 +13025,8 @@
           "name": "LightBulb",
           "persistentUuid": "b297d4bb-3473-46a8-9051-3277dfebcc55",
           "width": 20,
-          "x": 6639,
-          "y": 285,
+          "x": 6582,
+          "y": 374,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -13085,8 +13040,8 @@
           "name": "LightBulb",
           "persistentUuid": "8fd6fc6a-ae52-4e5d-a708-b50437b54d36",
           "width": 20,
-          "x": 7021,
-          "y": 364,
+          "x": 6940,
+          "y": 380,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -13100,8 +13055,8 @@
           "name": "LightBulb",
           "persistentUuid": "e90a82c4-98db-42b8-b3cc-9e7b336c99e7",
           "width": 20,
-          "x": 7794,
-          "y": 338,
+          "x": 7761,
+          "y": 394,
           "zOrder": 162,
           "numberProperties": [],
           "stringProperties": [],
@@ -13115,9 +13070,189 @@
           "name": "LightBulb",
           "persistentUuid": "e2d80ddd-b390-4fd5-aabf-247b145b1d76",
           "width": 20,
-          "x": 7815,
-          "y": 338,
+          "x": 7782,
+          "y": 394,
           "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallPlatform",
+          "persistentUuid": "39c70524-a904-4b60-9dc4-fa3bb0852efa",
+          "width": 0,
+          "x": 1859,
+          "y": 450,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallPlatform",
+          "persistentUuid": "05588522-18d0-441d-acfd-19809335a082",
+          "width": 0,
+          "x": 2152,
+          "y": 524,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 21,
+          "layer": "",
+          "name": "SpikesFaster",
+          "persistentUuid": "0396d354-4fcf-4956-acdd-e7e8cd848441",
+          "width": 58,
+          "x": 2012,
+          "y": 460,
+          "zOrder": 146,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 21,
+          "layer": "",
+          "name": "SpikesFaster",
+          "persistentUuid": "8f75c5fe-1428-423c-9041-3c15c39d8542",
+          "width": 58,
+          "x": 2276,
+          "y": 456,
+          "zOrder": 146,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallPlatform",
+          "persistentUuid": "00d3b20e-07aa-465d-9d77-3c1bebd05388",
+          "width": 0,
+          "x": 2520,
+          "y": 336,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallPlatform",
+          "persistentUuid": "b50e2487-d90b-4985-8949-36ffe165f862",
+          "width": 0,
+          "x": 3024,
+          "y": 447,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallPlatform",
+          "persistentUuid": "756e1f38-680b-447c-95bc-cec5f4738f3a",
+          "width": 0,
+          "x": 3160,
+          "y": 481,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallPlatform",
+          "persistentUuid": "9b138cb7-49c1-4720-8e4c-d34763df6a4e",
+          "width": 0,
+          "x": 3419,
+          "y": 463,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallPlatform",
+          "persistentUuid": "09b93e1b-085f-4f6a-9604-9310cfab0597",
+          "width": 0,
+          "x": 3672,
+          "y": 474,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "",
+          "name": "MoonCheckpoint",
+          "persistentUuid": "db30a20c-7d2b-4408-89fe-1801e7989857",
+          "width": 25,
+          "x": 7252,
+          "y": 409,
+          "zOrder": 144,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallPlatform",
+          "persistentUuid": "0ebed539-407c-46f4-a274-43dbba88a2c8",
+          "width": 0,
+          "x": 7570,
+          "y": 461,
+          "zOrder": 136,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallPlatform",
+          "persistentUuid": "4c8cebd1-02d4-4e05-ba2c-e14b7d47696f",
+          "width": 0,
+          "x": 8276,
+          "y": 456,
+          "zOrder": 140,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16285,8 +16420,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco",
-              "comment2": ""
+              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -16597,8 +16731,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Quando tocar na borda limitadora de baixo, morre também",
-              "comment2": ""
+              "comment": "Quando tocar na borda limitadora de baixo, morre também"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -16745,8 +16878,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar",
-              "comment2": ""
+              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -16834,8 +16966,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Se o jogador cair em cima da criatura",
-                      "comment2": ""
+                      "comment": "Se o jogador cair em cima da criatura"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -16884,8 +17015,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Adicionar a pontuação de matar o monstro",
-                          "comment2": ""
+                          "comment": "Adicionar a pontuação de matar o monstro"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -16913,8 +17043,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Pular no monstro e quicar nele",
-                          "comment2": ""
+                          "comment": "Pular no monstro e quicar nele"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -16962,8 +17091,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão",
-                          "comment2": ""
+                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -17077,8 +17205,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela",
-              "comment2": ""
+              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -17200,8 +17327,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Redefinir a cor de todos os outros checkpoints",
-                  "comment2": ""
+                  "comment": "Redefinir a cor de todos os outros checkpoints"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -17248,8 +17374,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Customizar apenas o checkpoint que o jogador está tocando",
-                  "comment2": ""
+                  "comment": "Customizar apenas o checkpoint que o jogador está tocando"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -17420,7 +17545,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Botão Tela Game Over",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17445,7 +17569,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level #1\"",
+                    "\"Level #3\"",
                     "yes"
                   ]
                 }
@@ -17565,9 +17689,14 @@
           "ambientLightColorB": 8212232,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Background",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -17576,9 +17705,14 @@
           "ambientLightColorB": 167797870,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Foreground",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -17587,9 +17721,14 @@
           "ambientLightColorB": 164,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11566392,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "UI",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -17598,9 +17737,14 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 12365048,
           "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -17620,9 +17764,14 @@
           "ambientLightColorB": 9270840,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11037944,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "GameOver",
+          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -17671,7 +17820,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9610368693714846,
+        "zoomFactor": 0.6672773998330067,
         "windowMask": false
       },
       "objectsGroups": [
@@ -18044,8 +18193,8 @@
           "name": "SmallPlatformMoveHorizontal",
           "persistentUuid": "95c7a9da-26b9-418d-b90a-7a25d9da3ed4",
           "width": 89,
-          "x": 1715,
-          "y": 378,
+          "x": 1641,
+          "y": 416,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -18089,8 +18238,8 @@
           "name": "SmallPlatformMoveVerticalReverse",
           "persistentUuid": "39ac0330-1a14-4e9c-8b7e-bdd006ab91d7",
           "width": 91,
-          "x": 2158,
-          "y": 404,
+          "x": 2161,
+          "y": 376,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
@@ -18104,8 +18253,8 @@
           "name": "SmallPlatformMoveVerticalReverse",
           "persistentUuid": "8ba12a63-777c-427b-a4e0-45ce091ffe31",
           "width": 99,
-          "x": 2379,
-          "y": 242,
+          "x": 2346,
+          "y": 320,
           "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
@@ -18164,8 +18313,8 @@
           "name": "SmallPlatformMoveHorizontalReverse",
           "persistentUuid": "b98d7931-74fc-4bb4-8a12-1e1f4a6b5367",
           "width": 93,
-          "x": 2878,
-          "y": 342,
+          "x": 2835,
+          "y": 378,
           "zOrder": 109,
           "numberProperties": [],
           "stringProperties": [],
@@ -18179,8 +18328,8 @@
           "name": "SmallPlatformMoveVerticalReverse",
           "persistentUuid": "4b42778e-8e97-4ed1-b30f-508b52ccef83",
           "width": 96,
-          "x": 3073,
-          "y": 219,
+          "x": 3028,
+          "y": 322,
           "zOrder": 110,
           "numberProperties": [],
           "stringProperties": [],
@@ -18194,8 +18343,8 @@
           "name": "SmallPlatformMoveVerticalReverse",
           "persistentUuid": "103b3e2a-0815-4d05-9a60-6d5fe5544c78",
           "width": 106,
-          "x": 3245,
-          "y": 400,
+          "x": 3243,
+          "y": 354,
           "zOrder": 111,
           "numberProperties": [],
           "stringProperties": [],
@@ -18299,8 +18448,8 @@
           "name": "SmallPlatformMoveVerticalReverse",
           "persistentUuid": "e0503a0f-3dbb-423b-8ac3-4021c13756d8",
           "width": 98,
-          "x": 4817,
-          "y": 478,
+          "x": 4826,
+          "y": 393,
           "zOrder": 115,
           "numberProperties": [],
           "stringProperties": [],
@@ -18329,8 +18478,8 @@
           "name": "SmallPlatformMoveHorizontal",
           "persistentUuid": "a2425b3c-0b6b-4377-9e42-747c1e764c1e",
           "width": 99,
-          "x": 5027,
-          "y": 406,
+          "x": 5029,
+          "y": 385,
           "zOrder": 116,
           "numberProperties": [],
           "stringProperties": [],
@@ -18509,8 +18658,8 @@
           "name": "SmallPlatformMoveHorizontal",
           "persistentUuid": "2228630c-9bdb-4861-a227-5b58876042d7",
           "width": 103,
-          "x": 6837,
-          "y": 498,
+          "x": 6838,
+          "y": 493,
           "zOrder": 128,
           "numberProperties": [],
           "stringProperties": [],
@@ -18524,8 +18673,8 @@
           "name": "SmallPlatformMoveHorizontalReverse",
           "persistentUuid": "de0e50b5-9cd3-47d6-9fb3-60eb5cb92872",
           "width": 105,
-          "x": 7215,
-          "y": 389,
+          "x": 7219,
+          "y": 407,
           "zOrder": 129,
           "numberProperties": [],
           "stringProperties": [],
@@ -18674,8 +18823,8 @@
           "name": "LightBulb",
           "persistentUuid": "ccc88a54-9550-4bde-a658-dec91df9a69e",
           "width": 23,
-          "x": 1744,
-          "y": 345,
+          "x": 1671,
+          "y": 383,
           "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
@@ -18689,8 +18838,8 @@
           "name": "LightBulb",
           "persistentUuid": "a4549d74-1703-4312-a2e0-c7c10ccd3852",
           "width": 23,
-          "x": 2186,
-          "y": 373,
+          "x": 2189,
+          "y": 338,
           "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
@@ -18704,8 +18853,8 @@
           "name": "LightBulb",
           "persistentUuid": "b99d360a-cbeb-4273-89f4-f7810443d156",
           "width": 23,
-          "x": 2415,
-          "y": 208,
+          "x": 2384,
+          "y": 278,
           "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
@@ -18824,8 +18973,8 @@
           "name": "LightBulb",
           "persistentUuid": "e3d38608-1c27-4851-84ec-49058b123d6c",
           "width": 23,
-          "x": 5063,
-          "y": 372,
+          "x": 5067,
+          "y": 338,
           "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
@@ -19097,6 +19246,21 @@
           "x": 8422,
           "y": 284,
           "zOrder": 136,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "SmallPlatformMoveHorizontal",
+          "persistentUuid": "bda523ec-2525-465d-ab97-33a91831c18c",
+          "width": 89,
+          "x": 1824,
+          "y": 338,
+          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22041,8 +22205,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco",
-              "comment2": ""
+              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -22353,8 +22516,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Quando tocar na borda limitadora de baixo, morre também",
-              "comment2": ""
+              "comment": "Quando tocar na borda limitadora de baixo, morre também"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -22501,8 +22663,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar",
-              "comment2": ""
+              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -22590,8 +22751,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Se o jogador cair em cima da criatura",
-                      "comment2": ""
+                      "comment": "Se o jogador cair em cima da criatura"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -22640,8 +22800,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Adicionar a pontuação de matar o monstro",
-                          "comment2": ""
+                          "comment": "Adicionar a pontuação de matar o monstro"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -22669,8 +22828,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Pular no monstro e quicar nele",
-                          "comment2": ""
+                          "comment": "Pular no monstro e quicar nele"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -22718,8 +22876,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão",
-                          "comment2": ""
+                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -22833,8 +22990,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela",
-              "comment2": ""
+              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -22956,8 +23112,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Redefinir a cor de todos os outros checkpoints",
-                  "comment2": ""
+                  "comment": "Redefinir a cor de todos os outros checkpoints"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -23004,8 +23159,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Customizar apenas o checkpoint que o jogador está tocando",
-                  "comment2": ""
+                  "comment": "Customizar apenas o checkpoint que o jogador está tocando"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -23176,7 +23330,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Botão Tela Game Over",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23201,7 +23354,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level #1\"",
+                    "\"Level #2\"",
                     "yes"
                   ]
                 }
@@ -23255,9 +23408,14 @@
           "ambientLightColorB": 8212232,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Background",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -23266,9 +23424,14 @@
           "ambientLightColorB": 167797870,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Foreground",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -23277,9 +23440,14 @@
           "ambientLightColorB": 164,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11566392,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "UI",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -23288,9 +23456,14 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 12365048,
           "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -23310,9 +23483,14 @@
           "ambientLightColorB": 9270840,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11037944,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "GameOver",
+          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -27456,7 +27634,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27755,8 +27932,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco",
-              "comment2": ""
+              "comment": "Colocar o evento de trocar variável, para pegar quando os monstros matam o boneco"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -28067,8 +28243,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Quando tocar na borda limitadora de baixo, morre também",
-              "comment2": ""
+              "comment": "Quando tocar na borda limitadora de baixo, morre também"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -28215,8 +28390,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar",
-              "comment2": ""
+              "comment": "Comportamento das bordas para definir a área que o jogador e a câmera vão acessar"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -28304,8 +28478,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Se o jogador cair em cima da criatura",
-                      "comment2": ""
+                      "comment": "Se o jogador cair em cima da criatura"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -28354,8 +28527,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Adicionar a pontuação de matar o monstro",
-                          "comment2": ""
+                          "comment": "Adicionar a pontuação de matar o monstro"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -28383,8 +28555,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Pular no monstro e quicar nele",
-                          "comment2": ""
+                          "comment": "Pular no monstro e quicar nele"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -28432,8 +28603,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão",
-                          "comment2": ""
+                          "comment": "Desabilitar o comportamento do monstro e fazer esse mexer enquanto cai até sair da visão"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -28546,8 +28716,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela",
-              "comment2": ""
+              "comment": "Remover a Death Creature do jogo quando ultrapassar limite da tela"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -28669,8 +28838,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Redefinir a cor de todos os outros checkpoints",
-                  "comment2": ""
+                  "comment": "Redefinir a cor de todos os outros checkpoints"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -28717,8 +28885,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Customizar apenas o checkpoint que o jogador está tocando",
-                  "comment2": ""
+                  "comment": "Customizar apenas o checkpoint que o jogador está tocando"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -28889,7 +29056,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Botão Tela Game Over",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28968,9 +29134,14 @@
           "ambientLightColorB": 8212232,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Background",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -28979,9 +29150,14 @@
           "ambientLightColorB": 167797870,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 7723712,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Foreground",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -28990,9 +29166,14 @@
           "ambientLightColorB": 164,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11566392,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "UI",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -29001,9 +29182,14 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 12365048,
           "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -29023,9 +29209,14 @@
           "ambientLightColorB": 9270840,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 11037944,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "GameOver",
+          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -29841,9 +30032,14 @@
           "ambientLightColorB": 10960928,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 8807856,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Background",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -29852,9 +30048,14 @@
           "ambientLightColorB": 13563592,
           "ambientLightColorG": 13563592,
           "ambientLightColorR": 1869182049,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -29874,9 +30075,14 @@
           "ambientLightColorB": 11131392,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 10447320,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "UI",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -29885,9 +30091,14 @@
           "ambientLightColorB": 12201728,
           "ambientLightColorG": 6069792,
           "ambientLightColorR": 8704376,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Credits",
+          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -30002,8 +30213,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Evaluate the center of movement from the object position and properties.",
-                  "comment2": ""
+                  "comment": "Evaluate the center of movement from the object position and properties."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -30150,8 +30360,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Update the center when the object is moved outside of the behavior.",
-                  "comment2": ""
+                  "comment": "Update the center when the object is moved outside of the behavior."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -30191,8 +30400,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Place the object according to the movement angle.",
-                  "comment2": ""
+                  "comment": "Place the object according to the movement angle."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -30286,8 +30494,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Save the position to detect when the object is moved outside of the behavior.",
-                  "comment2": ""
+                  "comment": "Save the position to detect when the object is moved outside of the behavior."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -30349,8 +30556,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Update the movement angle for the next frame.",
-                  "comment2": ""
+                  "comment": "Update the movement angle for the next frame."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -31436,8 +31642,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "The \"Validated\" state only last one frame.",
-                      "comment2": ""
+                      "comment": "The \"Validated\" state only last one frame."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -31487,8 +31692,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Make sure the cursor position is only checked once per frame.",
-                          "comment2": ""
+                          "comment": "Make sure the cursor position is only checked once per frame."
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -31552,8 +31756,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Touches are always pressed, so ShouldCheckHovering doesn't matter.",
-                          "comment2": ""
+                          "comment": "Touches are always pressed, so ShouldCheckHovering doesn't matter."
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -32607,8 +32810,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Create one background instance for of each state.\nOnly the instance for the current state is shown.",
-                  "comment2": ""
+                  "comment": "Create one background instance for of each state.\nOnly the instance for the current state is shown."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -32688,8 +32890,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Place the label over the backgrounds.",
-                  "comment2": ""
+                  "comment": "Place the label over the backgrounds."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -32820,8 +33021,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Show the right background accordingly to the new state.",
-                      "comment2": ""
+                      "comment": "Show the right background accordingly to the new state."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -33186,8 +33386,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Children instances must be resized when the button size change:\n- backgrounds for each state are resized to take the full dimensions of the button\n- the label is put back at the center of the button\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances.",
-                      "comment2": ""
+                      "comment": "Children instances must be resized when the button size change:\n- backgrounds for each state are resized to take the full dimensions of the button\n- the label is put back at the center of the button\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34456,8 +34655,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Start/Reset duration timer",
-                      "comment2": ""
+                      "comment": "Start/Reset duration timer"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34484,8 +34682,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them",
-                      "comment2": ""
+                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34558,8 +34755,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Determine if the shake should keep going until stopped",
-                      "comment2": ""
+                      "comment": "Determine if the shake should keep going until stopped"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34612,8 +34808,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Add default values if none were provided",
-                      "comment2": ""
+                      "comment": "Add default values if none were provided"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34683,8 +34878,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake",
-                      "comment2": ""
+                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34725,8 +34919,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Detect initial shake",
-                      "comment2": ""
+                      "comment": "Detect initial shake"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34767,8 +34960,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Initiate the onScenePostEvents function",
-                      "comment2": ""
+                      "comment": "Initiate the onScenePostEvents function"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -34890,8 +35082,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Keep object shaking forever (if desired)",
-                              "comment2": ""
+                              "comment": "Keep object shaking forever (if desired)"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -34949,8 +35140,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Run once before every shake movement",
-                                  "comment2": ""
+                                  "comment": "Run once before every shake movement"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -35027,8 +35217,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Move to correct any drift from previous shake",
-                                          "comment2": ""
+                                          "comment": "Move to correct any drift from previous shake"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35125,8 +35314,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Reset drift detection variables",
-                                          "comment2": ""
+                                          "comment": "Reset drift detection variables"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35180,8 +35368,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Position Shake",
-                                      "comment2": ""
+                                      "comment": "Calculate Position Shake"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35229,8 +35416,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]",
-                                          "comment2": ""
+                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -35242,8 +35428,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect",
-                                          "comment2": ""
+                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35332,8 +35517,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "After initial shake pick a random direction",
-                                          "comment2": ""
+                                          "comment": "After initial shake pick a random direction"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35424,8 +35608,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Rotation (angle) shake ",
-                                      "comment2": ""
+                                      "comment": "Calculate Rotation (angle) shake "
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35454,8 +35637,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"even\" shake, rotate clockwise",
-                                          "comment2": ""
+                                          "comment": "Every \"even\" shake, rotate clockwise"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -35467,8 +35649,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                          "comment2": ""
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35508,8 +35689,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"odd\" shake, rotate counter-clockwise",
-                                          "comment2": ""
+                                          "comment": "Every \"odd\" shake, rotate counter-clockwise"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -35521,8 +35701,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                          "comment2": ""
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35564,8 +35743,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save that initial shake has been processed",
-                                      "comment2": ""
+                                      "comment": "Save that initial shake has been processed"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35608,8 +35786,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate the fraction of shake that occured during this frame",
-                                  "comment2": ""
+                                  "comment": "Calculate the fraction of shake that occured during this frame"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -35638,8 +35815,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Increase change for the first half of the shake (move away from original values)",
-                                  "comment2": ""
+                                  "comment": "Increase change for the first half of the shake (move away from original values)"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -35668,8 +35844,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position",
-                                      "comment2": ""
+                                      "comment": "Change position"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35738,8 +35913,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35781,8 +35955,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle",
-                                      "comment2": ""
+                                      "comment": "Change angle"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35821,8 +35994,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35855,8 +36027,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Decrease change the second half of the shake (return to original position)",
-                                  "comment2": ""
+                                  "comment": "Decrease change the second half of the shake (return to original position)"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -35884,8 +36055,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position",
-                                      "comment2": ""
+                                      "comment": "Change position"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -35954,8 +36124,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -35997,8 +36166,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle",
-                                      "comment2": ""
+                                      "comment": "Change angle"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -36037,8 +36205,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -36088,8 +36255,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)",
-                          "comment2": ""
+                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -36174,8 +36340,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Move to correct any drift from previous shake",
-                                  "comment2": ""
+                                  "comment": "Move to correct any drift from previous shake"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -36272,8 +36437,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Reset drift detection variables",
-                                  "comment2": ""
+                                  "comment": "Reset drift detection variables"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -36477,8 +36641,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Start/Reset duration timer",
-                      "comment2": ""
+                      "comment": "Start/Reset duration timer"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36505,8 +36668,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them",
-                      "comment2": ""
+                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36590,8 +36752,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Determine if the shake should keep going until stopped",
-                      "comment2": ""
+                      "comment": "Determine if the shake should keep going until stopped"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36644,8 +36805,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Add default values if none were provided",
-                      "comment2": ""
+                      "comment": "Add default values if none were provided"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36715,8 +36875,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake",
-                      "comment2": ""
+                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36757,8 +36916,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Detect initial shake",
-                      "comment2": ""
+                      "comment": "Detect initial shake"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36799,8 +36957,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Initiate the onScenePostEvents function",
-                      "comment2": ""
+                      "comment": "Initiate the onScenePostEvents function"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -36928,8 +37085,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Keep object shaking forever (if desired)",
-                              "comment2": ""
+                              "comment": "Keep object shaking forever (if desired)"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -36987,8 +37143,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Run once before every shake movement",
-                                  "comment2": ""
+                                  "comment": "Run once before every shake movement"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -37066,8 +37221,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Move to correct any drift from previous shake",
-                                          "comment2": ""
+                                          "comment": "Move to correct any drift from previous shake"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37192,8 +37346,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Reset drift detection variables",
-                                          "comment2": ""
+                                          "comment": "Reset drift detection variables"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37258,8 +37411,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Position Shake",
-                                      "comment2": ""
+                                      "comment": "Calculate Position Shake"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -37307,8 +37459,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]",
-                                          "comment2": ""
+                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37320,8 +37471,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect",
-                                          "comment2": ""
+                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37410,8 +37560,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "After initial shake pick a random direction",
-                                          "comment2": ""
+                                          "comment": "After initial shake pick a random direction"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37502,8 +37651,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Rotation (angle) shake ",
-                                      "comment2": ""
+                                      "comment": "Calculate Rotation (angle) shake "
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -37532,8 +37680,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"even\" shake, rotate clockwise",
-                                          "comment2": ""
+                                          "comment": "Every \"even\" shake, rotate clockwise"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37545,8 +37692,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                          "comment2": ""
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37586,8 +37732,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"odd\" shake, rotate counter-clockwise",
-                                          "comment2": ""
+                                          "comment": "Every \"odd\" shake, rotate counter-clockwise"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37599,8 +37744,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                          "comment2": ""
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37642,8 +37786,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Scale shake",
-                                      "comment2": ""
+                                      "comment": "Calculate Scale shake"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -37672,8 +37815,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Calculate object scale displacement, with linear decay over time",
-                                          "comment2": ""
+                                          "comment": "Calculate object scale displacement, with linear decay over time"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37685,8 +37827,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "ScaleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100",
-                                          "comment2": ""
+                                          "comment": "ScaleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37698,8 +37839,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every even shake, increase scale",
-                                          "comment2": ""
+                                          "comment": "Every even shake, increase scale"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37739,8 +37879,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"odd\" shake, decrease scale",
-                                          "comment2": ""
+                                          "comment": "Every \"odd\" shake, decrease scale"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -37752,8 +37891,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "ScaleDisplacement = -1 * (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100",
-                                          "comment2": ""
+                                          "comment": "ScaleDisplacement = -1 * (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -37795,8 +37933,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save that initial shake has been processed",
-                                      "comment2": ""
+                                      "comment": "Save that initial shake has been processed"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -37839,8 +37976,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate the fraction of shake that occured during this frame",
-                                  "comment2": ""
+                                  "comment": "Calculate the fraction of shake that occured during this frame"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -37869,8 +38005,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Increase change for the first half of the shake (move away from original values)",
-                                  "comment2": ""
+                                  "comment": "Increase change for the first half of the shake (move away from original values)"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -37899,8 +38034,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position",
-                                      "comment2": ""
+                                      "comment": "Change position"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -37969,8 +38103,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38012,8 +38145,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle",
-                                      "comment2": ""
+                                      "comment": "Change angle"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38052,8 +38184,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38084,8 +38215,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change scale",
-                                      "comment2": ""
+                                      "comment": "Change scale"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38124,8 +38254,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38158,8 +38287,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Decrease change the second half of the shake (return to original position)",
-                                  "comment2": ""
+                                  "comment": "Decrease change the second half of the shake (return to original position)"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -38187,8 +38315,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position",
-                                      "comment2": ""
+                                      "comment": "Change position"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38257,8 +38384,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38300,8 +38426,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle",
-                                      "comment2": ""
+                                      "comment": "Change angle"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38340,8 +38465,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38372,8 +38496,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change scale",
-                                      "comment2": ""
+                                      "comment": "Change scale"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -38412,8 +38535,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -38463,8 +38585,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)",
-                          "comment2": ""
+                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -38549,8 +38670,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Move to correct any drift from previous shake",
-                                  "comment2": ""
+                                  "comment": "Move to correct any drift from previous shake"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -38675,8 +38795,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Reset drift detection variables",
-                                  "comment2": ""
+                                  "comment": "Reset drift detection variables"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -38957,8 +39076,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Set the initial state according to the configuration.",
-                  "comment2": ""
+                  "comment": "Set the initial state according to the configuration."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -39107,8 +39225,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Update the rectangle when the object is moved outside of the behavior.",
-                  "comment2": ""
+                  "comment": "Update the rectangle when the object is moved outside of the behavior."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -39148,8 +39265,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Move the object on the rectangular path.",
-                  "comment2": ""
+                  "comment": "Move the object on the rectangular path."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -39179,8 +39295,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Save the position to detect when the object is moved outside of the behavior.",
-                  "comment2": ""
+                  "comment": "Save the position to detect when the object is moved outside of the behavior."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -39242,8 +39357,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Step on the path.",
-                  "comment2": ""
+                  "comment": "Step on the path."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -41830,8 +41944,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Update private properties through setters to check their values and initialize state.",
-                  "comment2": ""
+                  "comment": "Update private properties through setters to check their values and initialize state."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -42064,8 +42177,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "The camera following is called with an action, the call from doStepPreEvents must be disabled to avoid to do it twice.",
-                  "comment2": ""
+                  "comment": "The camera following is called with an action, the call from doStepPreEvents must be disabled to avoid to do it twice."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -42127,8 +42239,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Delaying and forecasting can be used at the same time.\nForecasting only use the positions that are older than the one used for delaying.\nThe behavior uses a position history that is split in 2 arrays:\n- one for delaying the position (from TimeFromStart to TimeFromStart - CamearDelay)\n- one for forecasting the position (from TimeFromStart - CamearDelay to TimeFromStart - CamearDelay - ForecastHistoryDuration",
-                  "comment2": ""
+                  "comment": "Delaying and forecasting can be used at the same time.\nForecasting only use the positions that are older than the one used for delaying.\nThe behavior uses a position history that is split in 2 arrays:\n- one for delaying the position (from TimeFromStart to TimeFromStart - CamearDelay)\n- one for forecasting the position (from TimeFromStart - CamearDelay to TimeFromStart - CamearDelay - ForecastHistoryDuration"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -42166,8 +42277,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "At each frame, the camera must catchup the target by a given ratio (speed)\ncameraX(t) - targetX = (cameraX(t - 1) - targetX) * speed\n\nThe frame rate must not impact on the catch-up speed, we don't want a speed in ratio per frame but a speed ratio per second, like this:\ncameraX(t) - targetX = (cameraX(t - 1s) - targetX) * speed\n\nOk, but we still need to process each frame, we can use a exponent for this:\ncameraX(t) - targetX = (cameraX(t - timeDelta) - targetX) * speed^timeDelta\ncameraX(t) = targetX + (cameraX(t - timeDelta) - targetX) * exp(timeDelta * ln(speed))\n\npow is probably more efficient than precalculated log if the speed is changed continuously but this might be rare enough.",
-                  "comment2": ""
+                  "comment": "At each frame, the camera must catchup the target by a given ratio (speed)\ncameraX(t) - targetX = (cameraX(t - 1) - targetX) * speed\n\nThe frame rate must not impact on the catch-up speed, we don't want a speed in ratio per frame but a speed ratio per second, like this:\ncameraX(t) - targetX = (cameraX(t - 1s) - targetX) * speed\n\nOk, but we still need to process each frame, we can use a exponent for this:\ncameraX(t) - targetX = (cameraX(t - timeDelta) - targetX) * speed^timeDelta\ncameraX(t) = targetX + (cameraX(t - timeDelta) - targetX) * exp(timeDelta * ln(speed))\n\npow is probably more efficient than precalculated log if the speed is changed continuously but this might be rare enough."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -42516,8 +42626,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Maybe the catch-up show be done in constant pixel speed instead of constant time speed.",
-                  "comment2": ""
+                  "comment": "Maybe the catch-up show be done in constant pixel speed instead of constant time speed."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -43793,8 +43902,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Deprecated use SetOffsetXOp instead.",
-                  "comment2": ""
+                  "comment": "Deprecated use SetOffsetXOp instead."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -43893,8 +44001,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Deprecated use SetOffsetYOp instead.",
-                  "comment2": ""
+                  "comment": "Deprecated use SetOffsetYOp instead."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -44256,8 +44363,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Add the previous position to have enough (2) positions to evaluate the extra delay for waiting mode.",
-                  "comment2": ""
+                  "comment": "Add the previous position to have enough (2) positions to evaluate the extra delay for waiting mode."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -44326,8 +44432,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Use the object center when no delay is asked.",
-                  "comment2": ""
+                  "comment": "Use the object center when no delay is asked."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -44463,8 +44568,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Remove history entries that are too old to be useful for delaying and pass it to the history for forecasting.",
-                      "comment2": ""
+                      "comment": "Remove history entries that are too old to be useful for delaying and pass it to the history for forecasting."
                     },
                     {
                       "infiniteLoopWarning": true,
@@ -44549,8 +44653,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Don't move the camera if there is not enough history.",
-                      "comment2": ""
+                      "comment": "Don't move the camera if there is not enough history."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -44617,8 +44720,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Add the extra delay that could be needed to respect the speed limit in waiting mode.\n\nspeedRatio = min(speedMaxX / historySpeedX, speedMaxY / historySpeedY)\ndelay += min(0, timeDelta * (1 - speedRatio))",
-                          "comment2": ""
+                          "comment": "Add the extra delay that could be needed to respect the speed limit in waiting mode.\n\nspeedRatio = min(speedMaxX / historySpeedX, speedMaxY / historySpeedY)\ndelay += min(0, timeDelta * (1 - speedRatio))"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -44677,8 +44779,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "The time with delay is now between the first 2 indexes",
-                          "comment2": ""
+                          "comment": "The time with delay is now between the first 2 indexes"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -45123,8 +45224,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Remove history entries that are too old to be useful.\nKeep at least 2 positions because no forecast can be done with less positions.",
-                      "comment2": ""
+                      "comment": "Remove history entries that are too old to be useful.\nKeep at least 2 positions because no forecast can be done with less positions."
                     },
                     {
                       "infiniteLoopWarning": true,
@@ -45266,8 +45366,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Simple linear regression\ny = A * x + B\n\nA = Covariance / VarianceX\nB = MeanY - A * MeanX\n\nNote than we could use only one position every N positions to reduce the process time,\nbut if we really need efficient process JavaScript and circular queues are a must.",
-                  "comment2": ""
+                  "comment": "Simple linear regression\ny = A * x + B\n\nA = Covariance / VarianceX\nB = MeanY - A * MeanX\n\nNote than we could use only one position every N positions to reduce the process time,\nbut if we really need efficient process JavaScript and circular queues are a must."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -45523,8 +45622,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "VarianceX = sum((X[i] - MeanX)²)\nVarianceY = sum((Y[i] - MeanY)²)\nCovariance = sum((X[i] - MeanX) * (Y[i] - MeanY))",
-                          "comment2": ""
+                          "comment": "VarianceX = sum((X[i] - MeanX)²)\nVarianceY = sum((Y[i] - MeanY)²)\nCovariance = sum((X[i] - MeanX) * (Y[i] - MeanY))"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -45746,8 +45844,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "y = A * x + B\n\nA = Covariance / VarianceX\nB = MeanY - A * MeanX",
-                                  "comment2": ""
+                                  "comment": "y = A * x + B\n\nA = Covariance / VarianceX\nB = MeanY - A * MeanX"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -45849,8 +45946,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Axis permutation to avoid a ratio between 2 numbers near 0.",
-                                  "comment2": ""
+                                  "comment": "Axis permutation to avoid a ratio between 2 numbers near 0."
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -45947,8 +46043,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Permute back axis",
-                                          "comment2": ""
+                                          "comment": "Permute back axis"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -46169,8 +46264,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Perpendicular line:\npA = -1/a; \npB = -pA * x + y\n\nIntersection:\n/ ProjectedY = a * ProjectedX + b\n\\ ProjectedY = pA * ProjectedX + b\n\nSolution that is cleaned out from indeterminism (like 0 / 0 or infinity / infinity):\nProjectedX= (x + (y - b) * a) / (a² + 1)\nProjectedY = y + (x * a - y + b) / (a² + 1)",
-                  "comment2": ""
+                  "comment": "Perpendicular line:\npA = -1/a; \npB = -pA * x + y\n\nIntersection:\n/ ProjectedY = a * ProjectedX + b\n\\ ProjectedY = pA * ProjectedX + b\n\nSolution that is cleaned out from indeterminism (like 0 / 0 or infinity / infinity):\nProjectedX= (x + (y - b) * a) / (a² + 1)\nProjectedY = y + (x * a - y + b) / (a² + 1)"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
