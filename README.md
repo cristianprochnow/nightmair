@@ -4,6 +4,8 @@ NightmAir é um jogo com jogabilidade 2D, todo construído com base na técnica 
 
 🔗 [Demo][demo-url]
 
+🔗 [Brand][figma-url]
+
 🔗 [Website][website-url]
 
 # Sobre
@@ -120,3 +122,4 @@ Após ocorrer essa inclusão ou qualquer outra, a mensagem para sincronizar seu 
 [image-open]: ./.github/open.png
 [website-url]: https://nightmair-page.vercel.app/
 [demo-url]: https://gd.games/instant-builds/15c3d749-ff44-4a27-9e5b-67e38545d0a5
+[figma-url]: https://www.figma.com/file/TMPn232AGlSGbJN63VDGS4/Nightmair?type=design&node-id=0%3A1&mode=design&t=OgOcSbXPKhSy47e4-1
